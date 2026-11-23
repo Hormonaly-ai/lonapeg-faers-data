@@ -1,0 +1,142 @@
+{
+ "behavioural_cluster_5pt": {
+  "n_reports": 21,
+  "n_age_known": 2,
+  "n_age_lt18": 2,
+  "age_median": 7.0,
+  "age_min": 5.0,
+  "age_max": 9.0,
+  "sex": {
+   "NR": 19,
+   "M": 2
+  },
+  "reporter": {
+   "CN": 10,
+   "HP": 7,
+   "MD": 3,
+   "PH": 1
+  },
+  "rept_cod": {
+   "PER": 19,
+   "DIR": 2
+  },
+  "by_quarter": {
+   "2022Q4": 2,
+   "2023Q1": 1,
+   "2023Q2": 3,
+   "2023Q3": 1,
+   "2023Q4": 3,
+   "2024Q1": 3,
+   "2024Q4": 2,
+   "2025Q4": 5,
+   "2026Q2": 1
+  },
+  "serious": 2,
+  "pts_per_report": {
+   "1": 17,
+   "2": 4
+  },
+  "co_reported_pts_top": {
+   "Headache": 3,
+   "Dizziness": 3,
+   "Somnolence": 3,
+   "Product dose omission issue": 2,
+   "Lethargy": 2,
+   "Vomiting": 2,
+   "Treatment noncompliance": 2,
+   "Device malfunction": 1,
+   "Liquid product physical issue": 1,
+   "Social problem": 1,
+   "Colostomy": 1,
+   "Anger": 1
+  }
+ },
+ "behavioural_wide_pts_present": {
+  "Abnormal behaviour": 4,
+  "Affective disorder": 3,
+  "Aggression": 8,
+  "Agitation": 1,
+  "Anger": 1,
+  "Anxiety": 11,
+  "Crying": 5,
+  "Depression": 1,
+  "Emotional disorder": 3,
+  "Emotional distress": 2,
+  "Irritability": 3,
+  "Mood altered": 4,
+  "Mood swings": 5
+ },
+ "behavioural_wide_n_reports": 44,
+ "growing_pains": {
+  "n_reports": 6,
+  "n_age_known": 0,
+  "n_age_lt18": 0,
+  "age_median": null,
+  "age_min": null,
+  "age_max": null,
+  "sex": {
+   "NR": 4,
+   "M": 2
+  },
+  "reporter": {
+   "NR": 4,
+   "CN": 2
+  },
+  "rept_cod": {
+   "PER": 6
+  },
+  "by_quarter": {
+   "2026Q2": 4,
+   "2026Q3": 2
+  },
+  "serious": 0
+ },
+ "pct": {
+  "age_unknown": 76.9,
+  "age_known": 23.1,
+  "male_of_known_sex": 77.3,
+  "us": 99.5,
+  "hcp": 25.6,
+  "q3_share_of_all": 27.2,
+  "q3_periodic": 94.1,
+  "q3_consumer": 85.8,
+  "q3_only_nc": 55.7,
+  "q3_ped": 65.8,
+  "before_only_nc": 35.8,
+  "before_periodic": 84.3,
+  "before_consumer": 60.1,
+  "before_age_unknown": 93.4,
+  "q3_age_unknown": 32.9,
+  "q3_init_2026": 99.5,
+  "ped_of_age_known": 97.8,
+  "any_nonclinical": 50.9
+ },
+ "hcp_n": 206,
+ "S5_n_after": 543,
+ "signals_robust_all_S1_S6": [
+  "Insulin-like growth factor increased",
+  "Injection site atrophy",
+  "Injection site reaction",
+  "Injection site pain",
+  "Headache",
+  "Myalgia"
+ ],
+ "signals_lost_S6": [
+  "Laboratory test abnormal",
+  "Lethargy"
+ ],
+ "behav_signals_S4": {
+  "Affective disorder": false,
+  "Aggression": true,
+  "Mood swings": false,
+  "Crying": true,
+  "Abnormal behaviour": true
+ },
+ "behav_signals_S5": {
+  "Affective disorder": true,
+  "Aggression": false,
+  "Mood swings": false,
+  "Crying": false,
+  "Abnormal behaviour": false
+ }
+}

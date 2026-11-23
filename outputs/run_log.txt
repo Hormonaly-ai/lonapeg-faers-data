@@ -1,0 +1,6 @@
+2026-11-23T17:34:59Z first lonapegsomatropin-specific FAERS query (drug-key scan, quarter 2021Q3+), after OSF UB6W2 registration 2026-11-23T17:29:25Z
+2026-11-23T17:47:49Z 07_analysis run 1
+2026-11-23T17:50:18Z CLIN_EXCEPT correction (Productive cough, Poor quality sleep, SIADH etc. were mis-captured as non-clinical); re-running 03 for all quarters
+2026-11-23T18:01:15Z 07_analysis final run (after CLIN_EXCEPT correction and 03 rerun)
+Mon Nov 23 18:16:30 UTC 2026 07_analysis rerun (S11 openFDA cross-check stored; post hoc comparator restriction renamed S12)
+Mon Nov 23 18:17:57 UTC 2026 note: python packages were missing from the shared sandbox and were reinstalled (pandas 3.1.1, numpy 2.5.5, scipy 1.18.1, pyarrow 26.0.1); 07 rerun reproduced identical signal and group tables

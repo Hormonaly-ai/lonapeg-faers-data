@@ -1,0 +1,4606 @@
+{
+ "database": {
+  "N_reports_with_pt": 7583637,
+  "N_us": 5260753,
+  "N_hcp": 3538979,
+  "N_ped": 292357,
+  "N_adult": 4120577,
+  "N_ps_reports": 7581845,
+  "n_pairs": 1787003,
+  "n_drugs": 5205,
+  "n_pts": 21344,
+  "n_quarters": 21,
+  "quarters": "2021Q3-2026Q3",
+  "dedup_source": "TESA-FAERS retained_reports.parquet (latest CASEVERSION per CASEID across 2010Q4-2026Q3, deleted cases removed)",
+  "tesa_dedup_summary": {
+   "demo_rows_all_quarters": 22516047,
+   "demo_rows_by_system": {
+    "FAERS": 20957628,
+    "AERS": 1558419
+   },
+   "unique_primaryids": 22514876,
+   "unique_caseids_latest_version": 19120954,
+   "caseids_in_both_systems": 72641,
+   "deleted_caseids_listed": 233448,
+   "removed_as_deleted": 105444,
+   "retained_reports": 19015510,
+   "retained_by_system": {
+    "FAERS": 17945283,
+    "AERS": 1070227
+   },
+   "n_quarters": 64
+  }
+ },
+ "mgps_prior": {
+  "truncated_degenerate": true,
+  "alpha1": 0.09929294266002654,
+  "beta1": 0.010652291662657938,
+  "alpha2": 0.39836326456960913,
+  "beta2": 0.6290734145526056,
+  "P": 0.07554001328110099,
+  "likelihood": "non-truncated, zero cells included"
+ },
+ "counts": {
+  "L_PS": 806,
+  "L_SUSP": 825,
+  "L_ANY": 852,
+  "DS_PS": 51577,
+  "SG_PS": 1273,
+  "SP_PS": 160,
+  "SZ_PS": 222,
+  "DS_ANY": 52879,
+  "SG_ANY": 1293,
+  "SP_ANY": 192,
+  "L_PS_with_other_GH_any_role": 26,
+  "L_rows_by_name": {
+   "SKYTROFA | LONAPEGSOMATROPIN-TCGD": 958,
+   "LONAPEGSOMATROPIN | LONAPEGSOMATROPIN": 27,
+   "SKYTROFA [LONAPEGSOMATROPIN] | ": 5,
+   "LONAPEGSOMATROPIN-TCGD | LONAPEGSOMATROPIN-TCGD": 3,
+   "SKYTROFA [LONAPEGSOMATROPIN TCGD] | ": 1
+  },
+  "L_reports_total_any_role_incl_no_pt": 852
+ },
+ "L_PS_age": {
+  "n": 806,
+  "age_known": 186,
+  "age_median": 13.0,
+  "age_q1": 10.0,
+  "age_q3": 15.0
+ },
+ "DS_PS_age": {
+  "n": 51577,
+  "age_known": 37380,
+  "age_median": 12.0,
+  "age_q1": 10.0,
+  "age_q3": 15.0
+ },
+ "SG_PS_age": {
+  "n": 1273,
+  "age_known": 798,
+  "age_median": 10.0,
+  "age_q1": 8.0,
+  "age_q3": 13.0
+ },
+ "SP_PS_age": {
+  "n": 160,
+  "age_known": 116,
+  "age_median": 22.5,
+  "age_q1": 12.0,
+  "age_q3": 55.75
+ },
+ "L_PS_top_countries": {
+  "US": 802,
+  "CN": 2,
+  "EU": 1,
+  "ZA": 1
+ },
+ "L_PS_ped": 182,
+ "L_PS_adult": 4,
+ "surge": {
+  "L_PS_2026Q3": 219,
+  "prev4_mean": 32.25,
+  "prev4": {
+   "2025Q3": 2,
+   "2025Q4": 69,
+   "2026Q1": 2,
+   "2026Q2": 56
+  },
+  "ratio": 6.790697674418604,
+  "max_before_2026Q3": 120,
+  "quarter_of_max_before": "2024Q1",
+  "composition_2026Q3": {
+   "n": 219,
+   "ped": 144,
+   "adult": 3,
+   "age_unknown": 72,
+   "consumer": 188,
+   "hcp": 30,
+   "us": 218,
+   "expedited": 11,
+   "periodic": 206,
+   "direct": 2,
+   "with_nonclinical": 154,
+   "only_nonclinical": 122,
+   "serious": 13,
+   "initial_fda_receipt_2026": 218,
+   "initial_fda_receipt_before_2025": 1
+  },
+  "composition_before": {
+   "n": 587,
+   "ped": 38,
+   "adult": 1,
+   "age_unknown": 548,
+   "consumer": 353,
+   "hcp": 176,
+   "us": 584,
+   "expedited": 71,
+   "periodic": 495,
+   "direct": 21,
+   "with_nonclinical": 256,
+   "only_nonclinical": 210,
+   "serious": 50,
+   "initial_fda_receipt_2026": 58,
+   "initial_fda_receipt_before_2025": 452
+  },
+  "top_pts_2026Q3": {
+   "Product dose omission issue": 58,
+   "Off label use": 28,
+   "Injection site reaction": 22,
+   "Wrong technique in device usage process": 15,
+   "Device issue": 14,
+   "Device malfunction": 14,
+   "Device use error": 9,
+   "Incorrect dose administered": 9,
+   "Fatigue": 9,
+   "Drug dose omission by device": 9,
+   "Drug ineffective": 8,
+   "Product dose omission in error": 8,
+   "Product preparation error": 7,
+   "Device use issue": 7,
+   "Liquid product physical issue": 7
+  },
+  "top_pts_before": {
+   "Product dose omission issue": 113,
+   "Headache": 67,
+   "Injection site pain": 48,
+   "Device use error": 44,
+   "Device malfunction": 33,
+   "Nausea": 26,
+   "Therapy interrupted": 26,
+   "Treatment noncompliance": 26,
+   "Incorrect dose administered": 24,
+   "Vomiting": 23,
+   "Off label use": 22,
+   "Wrong technique in device usage process": 22,
+   "Fatigue": 19,
+   "Arthralgia": 18,
+   "Liquid product physical issue": 17
+  },
+  "pts_enriched_2026Q3": [
+   {
+    "pt_display": "Injection site reaction",
+    "a_2026Q3": 22,
+    "c_before": 6,
+    "ROR": 10.813874788494077,
+    "lo": 4.3222275504061125,
+    "hi": 27.055467713688568,
+    "nonclinical": false
+   },
+   {
+    "pt_display": "Device issue",
+    "a_2026Q3": 14,
+    "c_before": 4,
+    "ROR": 9.953658536585367,
+    "lo": 3.23939166519966,
+    "hi": 30.584544415326896,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Off label use",
+    "a_2026Q3": 28,
+    "c_before": 22,
+    "ROR": 3.7648738695859114,
+    "lo": 2.1037231883531238,
+    "hi": 6.737709282458862,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Product dose omission issue",
+    "a_2026Q3": 58,
+    "c_before": 113,
+    "ROR": 1.511130654647392,
+    "lo": 1.0505037865912874,
+    "hi": 2.1737340546145862,
+    "nonclinical": true
+   }
+  ],
+  "init_receipt_year_2026Q3": {
+   "2023": 1,
+   "2026": 218
+  },
+  "caseversion_2026Q3_gt1": 34
+ },
+ "indications_L_PS_top": {
+  "Hypopituitarism": 402,
+  "Growth hormone deficiency": 230,
+  "Product used for unknown indication": 179,
+  "Short stature": 67,
+  "Growth disorder": 5,
+  "Hypothalamo-pituitary disorder": 3,
+  "Blood growth hormone abnormal": 3,
+  "Failure to thrive": 2,
+  "Constipation": 2,
+  "Hormone level abnormal": 1,
+  "Growth failure": 1,
+  "Lymphocytic leukaemia": 1,
+  "Thymus enlargement": 1,
+  "Growth retardation": 1,
+  "Snoring": 1
+ },
+ "routes_L_PS": {
+  "Subcutaneous": 400,
+  "Not reported": 273,
+  "Unknown": 132,
+  "Intramuscular": 1
+ },
+ "long_term": {
+  "n_with_duration": 54,
+  "n_ge_2y": 4,
+  "top_pts_ge_2y": {
+   "Eye pain": 1,
+   "Idiopathic intracranial hypertension": 1,
+   "Ocular discomfort": 1,
+   "Migraine": 1,
+   "Therapy interrupted": 1,
+   "Product dose omission issue": 1,
+   "Embryonal rhabdomyosarcoma": 1
+  }
+ },
+ "pt_level": {
+  "n_distinct_pts": 371,
+  "n_clinical_pts": 308,
+  "n_nonclinical_pts": 63,
+  "n_clinical_pts_a_ge3": 80,
+  "n_signal_primary": 19,
+  "n_signal_highspec": 7,
+  "n_signal_primary_labeled": 9,
+  "n_signal_primary_unlabeled": 10,
+  "n_signal_primary_indication_related": 0,
+  "n_signal_primary_unlabeled_not_indication": 10,
+  "n_sig_PRR": 22,
+  "n_sig_ROR": 26,
+  "n_sig_IC": 19,
+  "n_sig_EB05": 9,
+  "n_nonclinical_signal_primary": 19,
+  "top_reported_clinical": [
+   {
+    "pt_display": "Headache",
+    "a": 73,
+    "pct_of_reports": 9.1
+   },
+   {
+    "pt_display": "Injection site pain",
+    "a": 48,
+    "pct_of_reports": 6.0
+   },
+   {
+    "pt_display": "Injection site reaction",
+    "a": 28,
+    "pct_of_reports": 3.5
+   },
+   {
+    "pt_display": "Fatigue",
+    "a": 28,
+    "pct_of_reports": 3.5
+   },
+   {
+    "pt_display": "Nausea",
+    "a": 26,
+    "pct_of_reports": 3.2
+   },
+   {
+    "pt_display": "Vomiting",
+    "a": 25,
+    "pct_of_reports": 3.1
+   },
+   {
+    "pt_display": "Arthralgia",
+    "a": 22,
+    "pct_of_reports": 2.7
+   },
+   {
+    "pt_display": "Weight increased",
+    "a": 18,
+    "pct_of_reports": 2.2
+   },
+   {
+    "pt_display": "Pain in extremity",
+    "a": 18,
+    "pct_of_reports": 2.2
+   },
+   {
+    "pt_display": "Rash",
+    "a": 17,
+    "pct_of_reports": 2.1
+   },
+   {
+    "pt_display": "Abdominal pain upper",
+    "a": 15,
+    "pct_of_reports": 1.9
+   },
+   {
+    "pt_display": "Dizziness",
+    "a": 15,
+    "pct_of_reports": 1.9
+   },
+   {
+    "pt_display": "Pyrexia",
+    "a": 13,
+    "pct_of_reports": 1.6
+   },
+   {
+    "pt_display": "Myalgia",
+    "a": 12,
+    "pct_of_reports": 1.5
+   },
+   {
+    "pt_display": "Nasopharyngitis",
+    "a": 11,
+    "pct_of_reports": 1.4
+   },
+   {
+    "pt_display": "Abdominal pain",
+    "a": 11,
+    "pct_of_reports": 1.4
+   },
+   {
+    "pt_display": "Anxiety",
+    "a": 11,
+    "pct_of_reports": 1.4
+   },
+   {
+    "pt_display": "Cough",
+    "a": 11,
+    "pct_of_reports": 1.4
+   },
+   {
+    "pt_display": "Hypersensitivity",
+    "a": 9,
+    "pct_of_reports": 1.1
+   },
+   {
+    "pt_display": "Malaise",
+    "a": 9,
+    "pct_of_reports": 1.1
+   }
+  ],
+  "top_reported_nonclinical": [
+   {
+    "pt_display": "Product dose omission issue",
+    "a": 171,
+    "pct_of_reports": 21.2
+   },
+   {
+    "pt_display": "Device use error",
+    "a": 53,
+    "pct_of_reports": 6.6
+   },
+   {
+    "pt_display": "Off label use",
+    "a": 50,
+    "pct_of_reports": 6.2
+   },
+   {
+    "pt_display": "Device malfunction",
+    "a": 47,
+    "pct_of_reports": 5.8
+   },
+   {
+    "pt_display": "Wrong technique in device usage process",
+    "a": 37,
+    "pct_of_reports": 4.6
+   },
+   {
+    "pt_display": "Incorrect dose administered",
+    "a": 33,
+    "pct_of_reports": 4.1
+   },
+   {
+    "pt_display": "Treatment noncompliance",
+    "a": 27,
+    "pct_of_reports": 3.3
+   },
+   {
+    "pt_display": "Therapy interrupted",
+    "a": 27,
+    "pct_of_reports": 3.3
+   },
+   {
+    "pt_display": "Liquid product physical issue",
+    "a": 24,
+    "pct_of_reports": 3.0
+   },
+   {
+    "pt_display": "Product availability issue",
+    "a": 18,
+    "pct_of_reports": 2.2
+   },
+   {
+    "pt_display": "Device issue",
+    "a": 18,
+    "pct_of_reports": 2.2
+   },
+   {
+    "pt_display": "Drug ineffective",
+    "a": 16,
+    "pct_of_reports": 2.0
+   },
+   {
+    "pt_display": "Drug dose omission by device",
+    "a": 12,
+    "pct_of_reports": 1.5
+   },
+   {
+    "pt_display": "Product preparation error",
+    "a": 11,
+    "pct_of_reports": 1.4
+   },
+   {
+    "pt_display": "Product dose omission in error",
+    "a": 11,
+    "pct_of_reports": 1.4
+   }
+  ]
+ },
+ "pt_level_L_SUSP": {
+  "n_signal_primary": 22,
+  "n_signal_highspec": 10
+ },
+ "pt_level_L_ANY": {
+  "n_signal_primary": 24,
+  "n_signal_highspec": 10
+ },
+ "groups_L_PS": {
+  "Injection-site reactions": {
+   "a": 97,
+   "pct": 12.0,
+   "ROR": 3.9436037133201793,
+   "ROR_lo": 3.189528661615772,
+   "ROR_hi": 4.875958769354426,
+   "IC025": 1.488019851815209,
+   "EB05": 2.959631068376891,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "Lipoatrophy/lipohypertrophy": {
+   "a": 7,
+   "pct": 0.9,
+   "ROR": 17.89765744916995,
+   "ROR_lo": 8.498805224439955,
+   "ROR_hi": 37.690726367827445,
+   "IC025": 1.764490819704961,
+   "EB05": 5.627260559358011,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "Hypersensitivity": {
+   "a": 40,
+   "pct": 5.0,
+   "ROR": 0.6743449960061068,
+   "ROR_lo": 0.4907025704160034,
+   "ROR_hi": 0.9267144723797959,
+   "IC025": -1.0550077338587718,
+   "EB05": 0.5216199618319509,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Neoplasm (any)": {
+   "a": 4,
+   "pct": 0.5,
+   "ROR": 0.058970944403617255,
+   "ROR_lo": 0.022078414642407937,
+   "ROR_hi": 0.1575100540586298,
+   "IC025": -5.580410250449549,
+   "EB05": 0.025126860464481014,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Malignancy": {
+   "a": 3,
+   "pct": 0.4,
+   "ROR": 0.04623839787500186,
+   "ROR_lo": 0.01488105538328766,
+   "ROR_hi": 0.1436718957748165,
+   "IC025": -6.186798009939788,
+   "EB05": 0.016780549276591974,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "CNS/pituitary tumour": {
+   "a": 2,
+   "pct": 0.2,
+   "ROR": 0.6526970047297379,
+   "ROR_lo": 0.16294500342763232,
+   "ROR_hi": 2.614461143464114,
+   "IC025": -3.1030394198171054,
+   "EB05": 0.14222897763656692,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Hyperglycaemia/type 2 diabetes": {
+   "a": 6,
+   "pct": 0.7,
+   "ROR": 0.5036377669327006,
+   "ROR_lo": 0.2255797624269442,
+   "ROR_hi": 1.1244404088026476,
+   "IC025": -2.338239145398774,
+   "EB05": 0.2309307463268306,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "IGF-1 increased": {
+   "a": 6,
+   "pct": 0.7,
+   "ROR": 94.3063184079602,
+   "ROR_lo": 42.07399561639408,
+   "ROR_hi": 211.38191325470785,
+   "IC025": 2.109764926175665,
+   "EB05": 35.50602993670056,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "SCFE/osteonecrosis": {
+   "a": 1,
+   "pct": 0.1,
+   "ROR": 0.8291964343894475,
+   "ROR_lo": 0.11664715352118092,
+   "ROR_hi": 5.894414960407276,
+   "IC025": -3.9684657651595128,
+   "EB05": 0.07860833892955972,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Scoliosis": {
+   "a": 3,
+   "pct": 0.4,
+   "ROR": 9.874011942662714,
+   "ROR_lo": 3.175919019732734,
+   "ROR_hi": 30.698550951104092,
+   "IC025": 0.05068836732766757,
+   "EB05": 1.2060923897492284,
+   "signal_primary": true,
+   "signal_highspec": false
+  },
+  "Intracranial hypertension": {
+   "a": 3,
+   "pct": 0.4,
+   "ROR": 7.5487516321923955,
+   "ROR_lo": 2.428349960298784,
+   "ROR_hi": 23.465996308668828,
+   "IC025": -0.10837257316616633,
+   "EB05": 1.0575476338457823,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Fluid retention/musculoskeletal": {
+   "a": 57,
+   "pct": 7.1,
+   "ROR": 1.1726587301025517,
+   "ROR_lo": 0.8957908083351943,
+   "ROR_hi": 1.5351000305990776,
+   "IC025": -0.22713157008587906,
+   "EB05": 0.9153692501534754,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Hypothyroidism": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 0.3330853628817763,
+   "ROR_lo": 0.02081412541077471,
+   "ROR_hi": 5.3303156763268085,
+   "IC025": -12.321728356958268,
+   "EB05": 2.647393703109552e-05,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Adrenal insufficiency": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 0.5800104053288698,
+   "ROR_lo": 0.03624287165945581,
+   "ROR_hi": 9.282158253097188,
+   "IC025": -11.767847910349914,
+   "EB05": 4.745263604229991e-05,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Pancreatitis": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 0.21107813350170912,
+   "ROR_lo": 0.013190269582122334,
+   "ROR_hi": 3.3777913457471986,
+   "IC025": -12.8398175658212,
+   "EB05": 1.4733408854525327e-05,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "Headache": {
+   "a": 73,
+   "pct": 9.1,
+   "ROR": 3.6358894915270525,
+   "ROR_lo": 2.858395750168264,
+   "ROR_hi": 4.624864277040242,
+   "IC025": 1.3525376435880574,
+   "EB05": 2.711611860793175,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "Pregnancy exposure": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 0.06515001761920797,
+   "ROR_lo": 0.004071311226382739,
+   "ROR_hi": 1.0425449099243302,
+   "IC025": -14.341089429411124,
+   "EB05": 2.1129252835826338e-06,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "NC: any non-clinical": {
+   "a": 410,
+   "pct": 50.9,
+   "ROR": 1.7778498886303022,
+   "ROR_lo": 1.5485203703179762,
+   "ROR_hi": 2.0411421684131565,
+   "IC025": 0.30308799472223275,
+   "EB05": 1.270432097755926,
+   "signal_primary": true,
+   "signal_highspec": false
+  },
+  "NC: Dose omission/missed or delayed dose": {
+   "a": 248,
+   "pct": 30.8,
+   "ROR": 6.7499145514442995,
+   "ROR_lo": 5.811961828118683,
+   "ROR_hi": 7.839237042365021,
+   "IC025": 2.094388216624063,
+   "EB05": 4.429016239465456,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "NC: Device issues": {
+   "a": 179,
+   "pct": 22.2,
+   "ROR": 5.384278030814523,
+   "ROR_lo": 4.5601419847657985,
+   "ROR_hi": 6.357356856422709,
+   "IC025": 1.8796751631876436,
+   "EB05": 3.8366996922439243,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "NC: Storage/temperature/expiry/preparation": {
+   "a": 41,
+   "pct": 5.1,
+   "ROR": 2.873242191664679,
+   "ROR_lo": 2.0984521821034607,
+   "ROR_hi": 3.934099982057644,
+   "IC025": 0.9234405181592116,
+   "EB05": 2.0441851397363164,
+   "signal_primary": true,
+   "signal_highspec": true
+  },
+  "NC: Incorrect dose/technique/schedule/product": {
+   "a": 77,
+   "pct": 9.6,
+   "ROR": 0.9572628939202131,
+   "ROR_lo": 0.7568787617587004,
+   "ROR_hi": 1.2106988521480568,
+   "IC025": -0.43429325716916634,
+   "EB05": 0.7869136445981842,
+   "signal_primary": false,
+   "signal_highspec": false
+  },
+  "NC: Product quality/supply/access": {
+   "a": 31,
+   "pct": 3.8,
+   "ROR": 3.0468434764909427,
+   "ROR_lo": 2.1277244557102772,
+   "ROR_hi": 4.362996883981613,
+   "IC025": 0.9255933640839349,
+   "EB05": 2.061859482252299,
+   "signal_primary": true,
+   "signal_highspec": true
+  }
+ },
+ "group_component_pts_L_PS": {
+  "Injection-site reactions": {
+   "Injection site pain": 48,
+   "Injection site reaction": 28,
+   "Injection site erythema": 6,
+   "Injection site atrophy": 5,
+   "Injection site rash": 5,
+   "Injection site bruising": 5,
+   "Injection site haemorrhage": 4,
+   "Injection site pruritus": 3,
+   "Injection site swelling": 3,
+   "Injection site mass": 3
+  },
+  "Lipoatrophy/lipohypertrophy": {
+   "Injection site atrophy": 5,
+   "Lipoatrophy": 2
+  },
+  "Hypersensitivity": {
+   "Rash": 17,
+   "Hypersensitivity": 9,
+   "Urticaria": 7,
+   "Pruritus": 4,
+   "Drug hypersensitivity": 3,
+   "Anaphylactic reaction": 3,
+   "Lip swelling": 2,
+   "Erythema": 2,
+   "Swelling face": 2,
+   "Anaphylactic shock": 2
+  },
+  "Neoplasm (any)": {
+   "Abdominal neoplasm": 1,
+   "Thyroid neoplasm": 1,
+   "Pituitary tumour benign": 1,
+   "Brain neoplasm": 1,
+   "Neoplasm progression": 1,
+   "Embryonal rhabdomyosarcoma": 1
+  },
+  "Malignancy": {
+   "Abdominal neoplasm": 1,
+   "Thyroid neoplasm": 1,
+   "Brain neoplasm": 1,
+   "Neoplasm progression": 1,
+   "Embryonal rhabdomyosarcoma": 1
+  },
+  "CNS/pituitary tumour": {
+   "Pituitary tumour benign": 1,
+   "Brain neoplasm": 1
+  },
+  "Hyperglycaemia/type 2 diabetes": {
+   "Glycosylated haemoglobin increased": 3,
+   "Blood glucose increased": 1,
+   "Hyperglycaemia": 1,
+   "Insulin resistance": 1,
+   "Diabetic ketoacidosis": 1
+  },
+  "IGF-1 increased": {
+   "Insulin-like growth factor increased": 6
+  },
+  "SCFE/osteonecrosis": {
+   "Epiphysiolysis": 1
+  },
+  "Scoliosis": {
+   "Scoliosis": 3
+  },
+  "Intracranial hypertension": {
+   "Idiopathic intracranial hypertension": 2,
+   "Papilloedema": 1
+  },
+  "Fluid retention/musculoskeletal": {
+   "Arthralgia": 22,
+   "Pain in extremity": 18,
+   "Myalgia": 12,
+   "Peripheral swelling": 7,
+   "Joint swelling": 3,
+   "Swelling": 2,
+   "Musculoskeletal pain": 2,
+   "Musculoskeletal stiffness": 2,
+   "Generalised oedema": 1,
+   "Oedema": 1
+  },
+  "Hypothyroidism": {},
+  "Adrenal insufficiency": {},
+  "Pancreatitis": {},
+  "Headache": {
+   "Headache": 73
+  },
+  "Pregnancy exposure": {},
+  "NC: any non-clinical": {
+   "Product dose omission issue": 171,
+   "Device use error": 53,
+   "Off label use": 50,
+   "Device malfunction": 47,
+   "Wrong technique in device usage process": 37,
+   "Incorrect dose administered": 33,
+   "Therapy interrupted": 27,
+   "Treatment noncompliance": 27,
+   "Liquid product physical issue": 24,
+   "Product availability issue": 18
+  },
+  "NC: Dose omission/missed or delayed dose": {
+   "Product dose omission issue": 171,
+   "Therapy interrupted": 27,
+   "Treatment noncompliance": 27,
+   "Drug dose omission by device": 12,
+   "Product dose omission in error": 11,
+   "Intentional dose omission": 2
+  },
+  "NC: Device issues": {
+   "Device use error": 53,
+   "Device malfunction": 47,
+   "Wrong technique in device usage process": 37,
+   "Device issue": 18,
+   "Drug dose omission by device": 12,
+   "Device defective": 10,
+   "Device use issue": 10,
+   "Needle issue": 5,
+   "Device breakage": 4,
+   "Device power source issue": 4
+  },
+  "NC: Storage/temperature/expiry/preparation": {
+   "Liquid product physical issue": 24,
+   "Product preparation error": 11,
+   "Product storage error": 6,
+   "Product storage issue": 1
+  },
+  "NC: Incorrect dose/technique/schedule/product": {
+   "Wrong technique in device usage process": 37,
+   "Incorrect dose administered": 33,
+   "Incorrect dose administered by device": 3,
+   "Wrong technique in product usage process": 3,
+   "Inappropriate schedule of product administration": 3,
+   "Prescribed underdose": 2,
+   "Intentional dose omission": 2,
+   "Wrong device used": 1,
+   "Accidental exposure to product": 1,
+   "Intentional product use issue": 1
+  },
+  "NC: Product quality/supply/access": {
+   "Product availability issue": 18,
+   "Insurance issue": 5,
+   "Product quality issue": 3,
+   "Prescribed underdose": 2,
+   "Poor quality product administered": 2,
+   "Product distribution issue": 1
+  }
+ },
+ "comparators": {
+  "L_PS vs DS_PS": {
+   "Injection-site reactions": {
+    "a_L": 97,
+    "n_L": 806,
+    "c_comp": 3832,
+    "n_comp": 51577,
+    "ROR": 1.7046212431281673,
+    "ROR_lo": 1.375230291479458,
+    "ROR_hi": 2.1129069076844296,
+    "higher": true,
+    "lower": false
+   },
+   "Lipoatrophy/lipohypertrophy": {
+    "a_L": 7,
+    "n_L": 806,
+    "c_comp": 26,
+    "n_comp": 51577,
+    "ROR": 17.370607490131896,
+    "ROR_lo": 7.517709977853126,
+    "ROR_hi": 40.13695732678362,
+    "higher": true,
+    "lower": false
+   },
+   "Hypersensitivity": {
+    "a_L": 40,
+    "n_L": 806,
+    "c_comp": 389,
+    "n_comp": 51577,
+    "ROR": 6.871472007624826,
+    "ROR_lo": 4.924403073071665,
+    "ROR_hi": 9.58839616719661,
+    "higher": true,
+    "lower": false
+   },
+   "Neoplasm (any)": {
+    "a_L": 4,
+    "n_L": 806,
+    "c_comp": 619,
+    "n_comp": 51577,
+    "ROR": 0.41058903629456245,
+    "ROR_lo": 0.15323309188362258,
+    "ROR_hi": 1.1001759127417017,
+    "higher": false,
+    "lower": false
+   },
+   "Malignancy": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 474,
+    "n_comp": 51577,
+    "ROR": 0.4027854406734241,
+    "ROR_lo": 0.12916411792394686,
+    "ROR_hi": 1.2560462907663779,
+    "higher": false,
+    "lower": false
+   },
+   "CNS/pituitary tumour": {
+    "a_L": 2,
+    "n_L": 806,
+    "c_comp": 322,
+    "n_comp": 51577,
+    "ROR": 0.39596273291925466,
+    "ROR_lo": 0.09843033266752621,
+    "ROR_hi": 1.592867580672228,
+    "higher": false,
+    "lower": false
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 291,
+    "n_comp": 51577,
+    "ROR": 1.3218041237113403,
+    "ROR_lo": 0.5872016320270113,
+    "ROR_hi": 2.975410908564938,
+    "higher": false,
+    "lower": false
+   },
+   "IGF-1 increased": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 167,
+    "n_comp": 51577,
+    "ROR": 2.3088323353293414,
+    "ROR_lo": 1.0195275464606508,
+    "ROR_hi": 5.228604927025462,
+    "higher": true,
+    "lower": false
+   },
+   "SCFE/osteonecrosis": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 53,
+    "n_comp": 51577,
+    "ROR": 1.2076409234735732,
+    "ROR_lo": 0.1667999841728792,
+    "ROR_hi": 8.743385722006755,
+    "higher": false,
+    "lower": false
+   },
+   "Scoliosis": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 84,
+    "n_comp": 51577,
+    "ROR": 2.2902063689734926,
+    "ROR_lo": 0.7224535742846618,
+    "ROR_hi": 7.260044657790138,
+    "higher": false,
+    "lower": false
+   },
+   "Intracranial hypertension": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 99,
+    "n_comp": 51577,
+    "ROR": 1.9426393448809391,
+    "ROR_lo": 0.6146577651962684,
+    "ROR_hi": 6.139754246941638,
+    "higher": false,
+    "lower": false
+   },
+   "Fluid retention/musculoskeletal": {
+    "a_L": 57,
+    "n_L": 806,
+    "c_comp": 702,
+    "n_comp": 51577,
+    "ROR": 5.515188342291146,
+    "ROR_lo": 4.170724393372314,
+    "ROR_hi": 7.293050219113064,
+    "higher": true,
+    "lower": false
+   },
+   "Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 74,
+    "n_comp": 51577,
+    "ROR": 0.42859401590267,
+    "ROR_lo": 0.02653583078345615,
+    "ROR_hi": 6.922445050490075,
+    "higher": false,
+    "lower": false
+   },
+   "Adrenal insufficiency": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 61,
+    "n_comp": 51577,
+    "ROR": 0.5193221740028932,
+    "ROR_lo": 0.03209024033939428,
+    "ROR_hi": 8.404284840460054,
+    "higher": false,
+    "lower": false
+   },
+   "Pancreatitis": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 12,
+    "n_comp": 51577,
+    "ROR": 2.557495350278983,
+    "ROR_lo": 0.15128657602868842,
+    "ROR_hi": 43.23438759998303,
+    "higher": false,
+    "lower": false
+   },
+   "Headache": {
+    "a_L": 73,
+    "n_L": 806,
+    "c_comp": 742,
+    "n_comp": 51577,
+    "ROR": 6.8230382837579935,
+    "ROR_lo": 5.307234484254103,
+    "ROR_hi": 8.771772108382747,
+    "higher": true,
+    "lower": false
+   },
+   "Pregnancy exposure": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 24,
+    "n_comp": 51577,
+    "ROR": 1.3045409112187962,
+    "ROR_lo": 0.0792607225082419,
+    "ROR_hi": 21.47125253452747,
+    "higher": false,
+    "lower": false
+   },
+   "NC: any non-clinical": {
+    "a_L": 410,
+    "n_L": 806,
+    "c_comp": 45054,
+    "n_comp": 51577,
+    "ROR": 0.14990036647381166,
+    "ROR_lo": 0.130249790767148,
+    "ROR_hi": 0.1725155928208257,
+    "higher": false,
+    "lower": true
+   },
+   "NC: Dose omission/missed or delayed dose": {
+    "a_L": 248,
+    "n_L": 806,
+    "c_comp": 20880,
+    "n_comp": 51577,
+    "ROR": 0.6534057045551298,
+    "ROR_lo": 0.5620472997361661,
+    "ROR_hi": 0.7596140306084515,
+    "higher": false,
+    "lower": true
+   },
+   "NC: Device issues": {
+    "a_L": 179,
+    "n_L": 806,
+    "c_comp": 40550,
+    "n_comp": 51577,
+    "ROR": 0.07763400767359493,
+    "ROR_lo": 0.06566587584536832,
+    "ROR_hi": 0.09178342738710168,
+    "higher": false,
+    "lower": true
+   },
+   "NC: Storage/temperature/expiry/preparation": {
+    "a_L": 41,
+    "n_L": 806,
+    "c_comp": 3962,
+    "n_comp": 51577,
+    "ROR": 0.6440976861887275,
+    "ROR_lo": 0.4696497553492317,
+    "ROR_hi": 0.8833430117411243,
+    "higher": false,
+    "lower": true
+   },
+   "NC: Incorrect dose/technique/schedule/product": {
+    "a_L": 77,
+    "n_L": 806,
+    "c_comp": 11126,
+    "n_comp": 51577,
+    "ROR": 0.38401961125178685,
+    "ROR_lo": 0.30335244363175773,
+    "ROR_hi": 0.48613770853611443,
+    "higher": false,
+    "lower": true
+   },
+   "NC: Product quality/supply/access": {
+    "a_L": 31,
+    "n_L": 806,
+    "c_comp": 3968,
+    "n_comp": 51577,
+    "ROR": 0.479929435483871,
+    "ROR_lo": 0.3346828518767192,
+    "ROR_hi": 0.6882105305135567,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site pain": {
+    "a_L": 48,
+    "n_L": 806,
+    "c_comp": 2341,
+    "n_comp": 51577,
+    "ROR": 1.3318440690727078,
+    "ROR_lo": 0.9919440412060875,
+    "ROR_hi": 1.7882144058927,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site erythema": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 111,
+    "n_comp": 51577,
+    "ROR": 3.4774324324324324,
+    "ROR_lo": 1.5247390517963213,
+    "ROR_hi": 7.930889097309155,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site swelling": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 83,
+    "n_comp": 51577,
+    "ROR": 2.317844228720611,
+    "ROR_lo": 0.730997476516564,
+    "ROR_hi": 7.349412332057084,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site bruising": {
+    "a_L": 5,
+    "n_L": 806,
+    "c_comp": 570,
+    "n_comp": 51577,
+    "ROR": 0.558589044396259,
+    "ROR_lo": 0.23096750644712088,
+    "ROR_hi": 1.3509334075568846,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site haemorrhage": {
+    "a_L": 4,
+    "n_L": 806,
+    "c_comp": 752,
+    "n_comp": 51577,
+    "ROR": 0.3370894572080437,
+    "ROR_lo": 0.12587289828319165,
+    "ROR_hi": 0.9027304821818574,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site pruritus": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 41,
+    "n_comp": 51577,
+    "ROR": 4.696048355253167,
+    "ROR_lo": 1.4511770231570413,
+    "ROR_hi": 15.19654032758861,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site reaction": {
+    "a_L": 28,
+    "n_L": 806,
+    "c_comp": 66,
+    "n_comp": 51577,
+    "ROR": 28.088883695567503,
+    "ROR_lo": 17.95184207424914,
+    "ROR_hi": 43.95010740401237,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site atrophy": {
+    "a_L": 5,
+    "n_L": 806,
+    "c_comp": 10,
+    "n_comp": 51577,
+    "ROR": 32.18913857677902,
+    "ROR_lo": 10.977270584577841,
+    "ROR_hi": 94.38964215483361,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Lipoatrophy": {
+    "a_L": 2,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 51577,
+    "ROR": 320.5562461155998,
+    "ROR_lo": 15.376499563633343,
+    "ROR_hi": 6682.6852560612615,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Headache": {
+    "a_L": 73,
+    "n_L": 806,
+    "c_comp": 742,
+    "n_comp": 51577,
+    "ROR": 6.8230382837579935,
+    "ROR_lo": 5.307234484254103,
+    "ROR_hi": 8.771772108382747,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor increased": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 154,
+    "n_comp": 51577,
+    "ROR": 2.504366883116883,
+    "ROR_lo": 1.1045592936673085,
+    "ROR_hi": 5.678150119428213,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor decreased": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 54,
+    "n_comp": 51577,
+    "ROR": 0.5861037328585973,
+    "ROR_lo": 0.03616470811710773,
+    "ROR_hi": 9.498696479407805,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hyperglycaemia": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 18,
+    "n_comp": 51577,
+    "ROR": 3.5582470669427195,
+    "ROR_lo": 0.47442885434143256,
+    "ROR_hi": 26.68708294941653,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Blood glucose increased": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 110,
+    "n_comp": 51577,
+    "ROR": 0.5812196499153021,
+    "ROR_lo": 0.08104538770894443,
+    "ROR_hi": 4.1682357379898605,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Scoliosis": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 79,
+    "n_comp": 51577,
+    "ROR": 2.4353925942273436,
+    "ROR_lo": 0.7672905066480439,
+    "ROR_hi": 7.7299758522074375,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Epiphysiolysis": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 27,
+    "n_comp": 51577,
+    "ROR": 2.371750632620198,
+    "ROR_lo": 0.32188797095558486,
+    "ROR_hi": 17.47564858243955,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Arthralgia": {
+    "a_L": 22,
+    "n_L": 806,
+    "c_comp": 259,
+    "n_comp": 51577,
+    "ROR": 5.560022850839178,
+    "ROR_lo": 3.577503384224034,
+    "ROR_hi": 8.641180952665705,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Pain in extremity": {
+    "a_L": 18,
+    "n_L": 806,
+    "c_comp": 251,
+    "n_comp": 51577,
+    "ROR": 4.671001274091451,
+    "ROR_lo": 2.8805221404481958,
+    "ROR_hi": 7.574409026819401,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Oedema peripheral": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 16,
+    "n_comp": 51577,
+    "ROR": 4.003183229813665,
+    "ROR_lo": 0.5302370910957722,
+    "ROR_hi": 30.223227006514385,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 39,
+    "n_comp": 51577,
+    "ROR": 0.8089101995652412,
+    "ROR_lo": 0.04967362074842763,
+    "ROR_hi": 13.1727001394677,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Pyrexia": {
+    "a_L": 13,
+    "n_L": 806,
+    "c_comp": 283,
+    "n_comp": 51577,
+    "ROR": 2.971325957249609,
+    "ROR_lo": 1.6966401392134995,
+    "ROR_hi": 5.203683291565886,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Vomiting": {
+    "a_L": 25,
+    "n_L": 806,
+    "c_comp": 242,
+    "n_comp": 51577,
+    "ROR": 6.790272060613115,
+    "ROR_lo": 4.471485560514036,
+    "ROR_hi": 10.311515945461892,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Urticaria": {
+    "a_L": 7,
+    "n_L": 806,
+    "c_comp": 67,
+    "n_comp": 51577,
+    "ROR": 6.735471578278818,
+    "ROR_lo": 3.0824052128032813,
+    "ROR_hi": 14.717914826176695,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Rash": {
+    "a_L": 17,
+    "n_L": 806,
+    "c_comp": 102,
+    "n_comp": 51577,
+    "ROR": 10.87346852555978,
+    "ROR_lo": 6.475824923260588,
+    "ROR_hi": 18.25749138949992,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Hypersensitivity": {
+    "a_L": 9,
+    "n_L": 806,
+    "c_comp": 73,
+    "n_comp": 51577,
+    "ROR": 7.967137037864595,
+    "ROR_lo": 3.972369375229487,
+    "ROR_hi": 15.979196943750178,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Fatigue": {
+    "a_L": 28,
+    "n_L": 806,
+    "c_comp": 463,
+    "n_comp": 51577,
+    "ROR": 3.97317150360619,
+    "ROR_lo": 2.695566216147487,
+    "ROR_hi": 5.856317571612029,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Growth retardation": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 134,
+    "n_comp": 51577,
+    "ROR": 0.2371230960343123,
+    "ROR_lo": 0.014742028582761671,
+    "ROR_hi": 3.814085853736991,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Dose omission issue": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 51577,
+    "ROR": 63.952262864228146,
+    "ROR_lo": 1.2681002279853981,
+    "ROR_hi": 3225.211884042358,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Device issue": {
+    "a_L": 18,
+    "n_L": 806,
+    "c_comp": 5128,
+    "n_comp": 51577,
+    "ROR": 0.20690674073663454,
+    "ROR_lo": 0.1295615149917113,
+    "ROR_hi": 0.3304252760937204,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Product dose omission issue": {
+    "a_L": 171,
+    "n_L": 806,
+    "c_comp": 1836,
+    "n_comp": 51577,
+    "ROR": 7.295653852092018,
+    "ROR_lo": 6.123340869126922,
+    "ROR_hi": 8.692406035715965,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Device malfunction": {
+    "a_L": 47,
+    "n_L": 806,
+    "c_comp": 2273,
+    "n_comp": 51577,
+    "ROR": 1.3431941790173585,
+    "ROR_lo": 0.9974540343205271,
+    "ROR_hi": 1.80877568335781,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Product storage error": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 924,
+    "n_comp": 51577,
+    "ROR": 0.41114448051948055,
+    "ROR_lo": 0.183672054962767,
+    "ROR_hi": 0.9203347994113767,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Incorrect dose administered": {
+    "a_L": 33,
+    "n_L": 806,
+    "c_comp": 1391,
+    "n_comp": 51577,
+    "ROR": 1.5402453212901641,
+    "ROR_lo": 1.0827378843678235,
+    "ROR_hi": 2.1910710653127135,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Underdose": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 163,
+    "n_comp": 51577,
+    "ROR": 0.3918302023396716,
+    "ROR_lo": 0.05479468614991589,
+    "ROR_hi": 2.8019305931508414,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Drug ineffective": {
+    "a_L": 16,
+    "n_L": 806,
+    "c_comp": 523,
+    "n_comp": 51577,
+    "ROR": 1.977065130575792,
+    "ROR_lo": 1.1963027932481676,
+    "ROR_hi": 3.2673889525290227,
+    "higher": true,
+    "lower": false
+   }
+  },
+  "L_PS vs SG_PS": {
+   "Injection-site reactions": {
+    "a_L": 97,
+    "n_L": 806,
+    "c_comp": 894,
+    "n_comp": 1273,
+    "ROR": 0.05799989271842056,
+    "ROR_lo": 0.04544967945352707,
+    "ROR_hi": 0.07401564974265701,
+    "higher": false,
+    "lower": true
+   },
+   "Lipoatrophy/lipohypertrophy": {
+    "a_L": 7,
+    "n_L": 806,
+    "c_comp": 24,
+    "n_comp": 1273,
+    "ROR": 0.4559345014601585,
+    "ROR_lo": 0.19553473280674555,
+    "ROR_hi": 1.063116852120464,
+    "higher": false,
+    "lower": false
+   },
+   "Hypersensitivity": {
+    "a_L": 40,
+    "n_L": 806,
+    "c_comp": 31,
+    "n_comp": 1273,
+    "ROR": 2.092141834414217,
+    "ROR_lo": 1.2977354132254613,
+    "ROR_hi": 3.372842731036454,
+    "higher": true,
+    "lower": false
+   },
+   "Neoplasm (any)": {
+    "a_L": 4,
+    "n_L": 806,
+    "c_comp": 6,
+    "n_comp": 1273,
+    "ROR": 1.053200332502078,
+    "ROR_lo": 0.29628642859741866,
+    "ROR_hi": 3.7437791046773294,
+    "higher": false,
+    "lower": false
+   },
+   "Malignancy": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 6,
+    "n_comp": 1273,
+    "ROR": 0.7889165628891656,
+    "ROR_lo": 0.19674615218799937,
+    "ROR_hi": 3.1634130389809867,
+    "higher": false,
+    "lower": false
+   },
+   "CNS/pituitary tumour": {
+    "a_L": 2,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 1273,
+    "ROR": 7.914853946550653,
+    "ROR_lo": 0.37947730951046776,
+    "ROR_hi": 165.0821048458509,
+    "higher": false,
+    "lower": false
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 2,
+    "n_comp": 1273,
+    "ROR": 4.766249999999999,
+    "ROR_lo": 0.9596215896406048,
+    "ROR_hi": 23.673017893446893,
+    "higher": false,
+    "lower": false
+   },
+   "IGF-1 increased": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 5,
+    "n_comp": 1273,
+    "ROR": 1.9020000000000001,
+    "ROR_lo": 0.5785514634675231,
+    "ROR_hi": 6.2528646601601325,
+    "higher": false,
+    "lower": false
+   },
+   "SCFE/osteonecrosis": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 5,
+    "n_comp": 1273,
+    "ROR": 0.31503105590062114,
+    "ROR_lo": 0.03673693728612715,
+    "ROR_hi": 2.7014926532631147,
+    "higher": false,
+    "lower": false
+   },
+   "Scoliosis": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 1273,
+    "ROR": 11.094586185438706,
+    "ROR_lo": 0.5722955941458739,
+    "ROR_hi": 215.080884573004,
+    "higher": false,
+    "lower": false
+   },
+   "Intracranial hypertension": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 9,
+    "n_comp": 1273,
+    "ROR": 0.5246990452469905,
+    "ROR_lo": 0.14162291482022243,
+    "ROR_hi": 1.9439586343254094,
+    "higher": false,
+    "lower": false
+   },
+   "Fluid retention/musculoskeletal": {
+    "a_L": 57,
+    "n_L": 806,
+    "c_comp": 22,
+    "n_comp": 1273,
+    "ROR": 4.327406238621192,
+    "ROR_lo": 2.62414182570815,
+    "ROR_hi": 7.136216713059746,
+    "higher": true,
+    "lower": false
+   },
+   "Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 2,
+    "n_comp": 1273,
+    "ROR": 0.3153130812151271,
+    "ROR_lo": 0.01511768887844553,
+    "ROR_hi": 6.576556772982114,
+    "higher": false,
+    "lower": false
+   },
+   "Adrenal insufficiency": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 3,
+    "n_comp": 1273,
+    "ROR": 0.22504649721016737,
+    "ROR_lo": 0.011608666449753797,
+    "ROR_hi": 4.362768637188294,
+    "higher": false,
+    "lower": false
+   },
+   "Pancreatitis": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 0.5259351105600331,
+    "ROR_lo": 0.02139796348840407,
+    "ROR_hi": 12.926825521021795,
+    "higher": false,
+    "lower": false
+   },
+   "Headache": {
+    "a_L": 73,
+    "n_L": 806,
+    "c_comp": 35,
+    "n_comp": 1273,
+    "ROR": 3.5226661469499123,
+    "ROR_lo": 2.3303649580525025,
+    "ROR_hi": 5.3249928686008685,
+    "higher": true,
+    "lower": false
+   },
+   "Pregnancy exposure": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 0.5259351105600331,
+    "ROR_lo": 0.02139796348840407,
+    "ROR_hi": 12.926825521021795,
+    "higher": false,
+    "lower": false
+   },
+   "NC: any non-clinical": {
+    "a_L": 410,
+    "n_L": 806,
+    "c_comp": 404,
+    "n_comp": 1273,
+    "ROR": 2.227035203520352,
+    "ROR_lo": 1.8570906557011464,
+    "ROR_hi": 2.6706751135131857,
+    "higher": true,
+    "lower": false
+   },
+   "NC: Dose omission/missed or delayed dose": {
+    "a_L": 248,
+    "n_L": 806,
+    "c_comp": 74,
+    "n_comp": 1273,
+    "ROR": 7.201201201201201,
+    "ROR_lo": 5.451404210926666,
+    "ROR_hi": 9.512649719908877,
+    "higher": true,
+    "lower": false
+   },
+   "NC: Device issues": {
+    "a_L": 179,
+    "n_L": 806,
+    "c_comp": 276,
+    "n_comp": 1273,
+    "ROR": 1.03126805815593,
+    "ROR_lo": 0.8334424239392614,
+    "ROR_hi": 1.2760495233084128,
+    "higher": false,
+    "lower": false
+   },
+   "NC: Storage/temperature/expiry/preparation": {
+    "a_L": 41,
+    "n_L": 806,
+    "c_comp": 13,
+    "n_comp": 1273,
+    "ROR": 5.1945701357466065,
+    "ROR_lo": 2.7657605460767836,
+    "ROR_hi": 9.756288892567559,
+    "higher": true,
+    "lower": false
+   },
+   "NC: Incorrect dose/technique/schedule/product": {
+    "a_L": 77,
+    "n_L": 806,
+    "c_comp": 150,
+    "n_comp": 1273,
+    "ROR": 0.7907727480566987,
+    "ROR_lo": 0.5916125146209142,
+    "ROR_hi": 1.0569782139747812,
+    "higher": false,
+    "lower": false
+   },
+   "NC: Product quality/supply/access": {
+    "a_L": 31,
+    "n_L": 806,
+    "c_comp": 17,
+    "n_comp": 1273,
+    "ROR": 2.9552941176470586,
+    "ROR_lo": 1.6247250063493217,
+    "ROR_hi": 5.375533267271889,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site pain": {
+    "a_L": 48,
+    "n_L": 806,
+    "c_comp": 827,
+    "n_comp": 1273,
+    "ROR": 0.0341508392543223,
+    "ROR_lo": 0.024957217250551528,
+    "ROR_hi": 0.04673116437886468,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site erythema": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 50,
+    "n_comp": 1273,
+    "ROR": 0.18345,
+    "ROR_lo": 0.0782922241758492,
+    "ROR_hi": 0.42984987148163323,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site swelling": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 41,
+    "n_comp": 1273,
+    "ROR": 0.1122619445372536,
+    "ROR_lo": 0.034646383444625034,
+    "ROR_hi": 0.3637535274476264,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site bruising": {
+    "a_L": 5,
+    "n_L": 806,
+    "c_comp": 18,
+    "n_comp": 1273,
+    "ROR": 0.43521986405881535,
+    "ROR_lo": 0.1609454196586538,
+    "ROR_hi": 1.1768979227436438,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site haemorrhage": {
+    "a_L": 4,
+    "n_L": 806,
+    "c_comp": 23,
+    "n_comp": 1273,
+    "ROR": 0.2710614767429253,
+    "ROR_lo": 0.09339576945366583,
+    "ROR_hi": 0.7866986331806654,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site pruritus": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 21,
+    "n_comp": 1273,
+    "ROR": 0.2227361679416474,
+    "ROR_lo": 0.06622172212310445,
+    "ROR_hi": 0.7491711015473663,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site reaction": {
+    "a_L": 28,
+    "n_L": 806,
+    "c_comp": 8,
+    "n_comp": 1273,
+    "ROR": 5.690874035989718,
+    "ROR_lo": 2.5806918732743758,
+    "ROR_hi": 12.549366171487401,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site atrophy": {
+    "a_L": 5,
+    "n_L": 806,
+    "c_comp": 5,
+    "n_comp": 1273,
+    "ROR": 1.5830212234706618,
+    "ROR_lo": 0.4568363086242184,
+    "ROR_hi": 5.485457584370521,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Lipoatrophy": {
+    "a_L": 2,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 3.1641791044776117,
+    "ROR_lo": 0.2864388976037249,
+    "ROR_hi": 34.9534560039535,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Headache": {
+    "a_L": 73,
+    "n_L": 806,
+    "c_comp": 35,
+    "n_comp": 1273,
+    "ROR": 3.5226661469499123,
+    "ROR_lo": 2.3303649580525025,
+    "ROR_hi": 5.3249928686008685,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor increased": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 3,
+    "n_comp": 1273,
+    "ROR": 3.175,
+    "ROR_lo": 0.7918031368509393,
+    "ROR_hi": 12.731226400657372,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor decreased": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 4,
+    "n_comp": 1273,
+    "ROR": 0.17489839498518978,
+    "ROR_lo": 0.009403453747194125,
+    "ROR_hi": 3.253001438702558,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hyperglycaemia": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 1273,
+    "ROR": 4.743016759776536,
+    "ROR_lo": 0.19297217710504827,
+    "ROR_hi": 116.57746894400655,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Blood glucose increased": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 1.5801242236024844,
+    "ROR_lo": 0.09869111382823027,
+    "ROR_hi": 25.299061538214747,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Scoliosis": {
+    "a_L": 3,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 1273,
+    "ROR": 11.094586185438706,
+    "ROR_lo": 0.5722955941458739,
+    "ROR_hi": 215.080884573004,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Epiphysiolysis": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 5,
+    "n_comp": 1273,
+    "ROR": 0.31503105590062114,
+    "ROR_lo": 0.03673693728612715,
+    "ROR_hi": 2.7014926532631147,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Arthralgia": {
+    "a_L": 22,
+    "n_L": 806,
+    "c_comp": 6,
+    "n_comp": 1273,
+    "ROR": 5.925595238095237,
+    "ROR_lo": 2.3921405553810997,
+    "ROR_hi": 14.678351088840195,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Pain in extremity": {
+    "a_L": 18,
+    "n_L": 806,
+    "c_comp": 10,
+    "n_comp": 1273,
+    "ROR": 2.88502538071066,
+    "ROR_lo": 1.3249775785246027,
+    "ROR_hi": 6.281896072998445,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Oedema peripheral": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 3,
+    "n_comp": 1273,
+    "ROR": 0.5258799171842651,
+    "ROR_lo": 0.05460568120942781,
+    "ROR_hi": 5.064485620774243,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 0.5259351105600331,
+    "ROR_lo": 0.02139796348840407,
+    "ROR_hi": 12.926825521021795,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Pyrexia": {
+    "a_L": 13,
+    "n_L": 806,
+    "c_comp": 13,
+    "n_comp": 1273,
+    "ROR": 1.5889029003783104,
+    "ROR_lo": 0.7328251728662207,
+    "ROR_hi": 3.4450405366894814,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Vomiting": {
+    "a_L": 25,
+    "n_L": 806,
+    "c_comp": 16,
+    "n_comp": 1273,
+    "ROR": 2.514804737516005,
+    "ROR_lo": 1.3342459889314608,
+    "ROR_hi": 4.739937702865236,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Urticaria": {
+    "a_L": 7,
+    "n_L": 806,
+    "c_comp": 6,
+    "n_comp": 1273,
+    "ROR": 1.8500208594075926,
+    "ROR_lo": 0.6195044422126527,
+    "ROR_hi": 5.524701595389634,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Rash": {
+    "a_L": 17,
+    "n_L": 806,
+    "c_comp": 9,
+    "n_comp": 1273,
+    "ROR": 3.0260526686382203,
+    "ROR_lo": 1.3423295460073161,
+    "ROR_hi": 6.82171883991488,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Hypersensitivity": {
+    "a_L": 9,
+    "n_L": 806,
+    "c_comp": 3,
+    "n_comp": 1273,
+    "ROR": 4.78042659974906,
+    "ROR_lo": 1.2902869895138547,
+    "ROR_hi": 17.711159347734377,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Fatigue": {
+    "a_L": 28,
+    "n_L": 806,
+    "c_comp": 7,
+    "n_comp": 1273,
+    "ROR": 6.5089974293059125,
+    "ROR_lo": 2.8296003543300414,
+    "ROR_hi": 14.972802597327258,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Growth retardation": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 3,
+    "n_comp": 1273,
+    "ROR": 0.22504649721016737,
+    "ROR_lo": 0.011608666449753797,
+    "ROR_hi": 4.362768637188294,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Dose omission issue": {
+    "a_L": 0,
+    "n_L": 806,
+    "c_comp": 0,
+    "n_comp": 1273,
+    "ROR": 1.5790452572845628,
+    "ROR_lo": 0.03129891622253304,
+    "ROR_hi": 79.66358665025624,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Device issue": {
+    "a_L": 18,
+    "n_L": 806,
+    "c_comp": 22,
+    "n_comp": 1273,
+    "ROR": 1.2989155514536226,
+    "ROR_lo": 0.692293873081021,
+    "ROR_hi": 2.4370887500410006,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Product dose omission issue": {
+    "a_L": 171,
+    "n_L": 806,
+    "c_comp": 18,
+    "n_comp": 1273,
+    "ROR": 18.775590551181104,
+    "ROR_lo": 11.445359918280321,
+    "ROR_hi": 30.8004993344559,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Device malfunction": {
+    "a_L": 47,
+    "n_L": 806,
+    "c_comp": 4,
+    "n_comp": 1273,
+    "ROR": 19.645256916996047,
+    "ROR_lo": 7.050024931715146,
+    "ROR_hi": 54.74251837019955,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Product storage error": {
+    "a_L": 6,
+    "n_L": 806,
+    "c_comp": 1,
+    "n_comp": 1273,
+    "ROR": 9.54,
+    "ROR_lo": 1.1463751384305205,
+    "ROR_hi": 79.39076568304003,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Incorrect dose administered": {
+    "a_L": 33,
+    "n_L": 806,
+    "c_comp": 29,
+    "n_comp": 1273,
+    "ROR": 1.8312887540705716,
+    "ROR_lo": 1.1031045580176693,
+    "ROR_hi": 3.04016376000835,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Underdose": {
+    "a_L": 1,
+    "n_L": 806,
+    "c_comp": 5,
+    "n_comp": 1273,
+    "ROR": 0.31503105590062114,
+    "ROR_lo": 0.03673693728612715,
+    "ROR_hi": 2.7014926532631147,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Drug ineffective": {
+    "a_L": 16,
+    "n_L": 806,
+    "c_comp": 17,
+    "n_comp": 1273,
+    "ROR": 1.4963514519731944,
+    "ROR_lo": 0.7516795013091134,
+    "ROR_hi": 2.9787531307196238,
+    "higher": false,
+    "lower": false
+   }
+  }
+ },
+ "DS_PS_signal_primary_n": 181,
+ "DS_PS_groups": {
+  "Injection-site reactions": {
+   "a": 3832,
+   "pct": 7.4,
+   "ROR": 2.333,
+   "ROR_lo": 2.257,
+   "ROR_hi": 2.412,
+   "signal_primary": true
+  },
+  "Lipoatrophy/lipohypertrophy": {
+   "a": 26,
+   "pct": 0.1,
+   "ROR": 1.029,
+   "ROR_lo": 0.699,
+   "ROR_hi": 1.513,
+   "signal_primary": false
+  },
+  "Hypersensitivity": {
+   "a": 389,
+   "pct": 0.8,
+   "ROR": 0.097,
+   "ROR_lo": 0.088,
+   "ROR_hi": 0.108,
+   "signal_primary": false
+  },
+  "Neoplasm (any)": {
+   "a": 619,
+   "pct": 1.2,
+   "ROR": 0.143,
+   "ROR_lo": 0.132,
+   "ROR_hi": 0.155,
+   "signal_primary": false
+  },
+  "Malignancy": {
+   "a": 474,
+   "pct": 0.9,
+   "ROR": 0.114,
+   "ROR_lo": 0.104,
+   "ROR_hi": 0.125,
+   "signal_primary": false
+  },
+  "CNS/pituitary tumour": {
+   "a": 322,
+   "pct": 0.6,
+   "ROR": 1.656,
+   "ROR_lo": 1.483,
+   "ROR_hi": 1.849,
+   "signal_primary": true
+  },
+  "Hyperglycaemia/type 2 diabetes": {
+   "a": 291,
+   "pct": 0.6,
+   "ROR": 0.379,
+   "ROR_lo": 0.338,
+   "ROR_hi": 0.426,
+   "signal_primary": false
+  },
+  "IGF-1 increased": {
+   "a": 167,
+   "pct": 0.3,
+   "ROR": 55.352,
+   "ROR_lo": 46.315,
+   "ROR_hi": 66.152,
+   "signal_primary": true
+  },
+  "SCFE/osteonecrosis": {
+   "a": 53,
+   "pct": 0.1,
+   "ROR": 0.685,
+   "ROR_lo": 0.523,
+   "ROR_hi": 0.898,
+   "signal_primary": false
+  },
+  "Scoliosis": {
+   "a": 84,
+   "pct": 0.2,
+   "ROR": 4.407,
+   "ROR_lo": 3.547,
+   "ROR_hi": 5.476,
+   "signal_primary": true
+  },
+  "Intracranial hypertension": {
+   "a": 99,
+   "pct": 0.2,
+   "ROR": 3.961,
+   "ROR_lo": 3.244,
+   "ROR_hi": 4.837,
+   "signal_primary": true
+  },
+  "Fluid retention/musculoskeletal": {
+   "a": 702,
+   "pct": 1.4,
+   "ROR": 0.211,
+   "ROR_lo": 0.196,
+   "ROR_hi": 0.228,
+   "signal_primary": false
+  },
+  "Hypothyroidism": {
+   "a": 74,
+   "pct": 0.1,
+   "ROR": 0.771,
+   "ROR_lo": 0.613,
+   "ROR_hi": 0.969,
+   "signal_primary": false
+  },
+  "Adrenal insufficiency": {
+   "a": 61,
+   "pct": 0.1,
+   "ROR": 1.109,
+   "ROR_lo": 0.862,
+   "ROR_hi": 1.427,
+   "signal_primary": false
+  },
+  "Pancreatitis": {
+   "a": 12,
+   "pct": 0.0,
+   "ROR": 0.079,
+   "ROR_lo": 0.045,
+   "ROR_hi": 0.139,
+   "signal_primary": false
+  },
+  "Headache": {
+   "a": 742,
+   "pct": 1.4,
+   "ROR": 0.531,
+   "ROR_lo": 0.494,
+   "ROR_hi": 0.571,
+   "signal_primary": false
+  },
+  "Pregnancy exposure": {
+   "a": 24,
+   "pct": 0.0,
+   "ROR": 0.049,
+   "ROR_lo": 0.033,
+   "ROR_hi": 0.073,
+   "signal_primary": false
+  },
+  "NC: any non-clinical": {
+   "a": 45054,
+   "pct": 87.4,
+   "ROR": 12.038,
+   "ROR_lo": 11.729,
+   "ROR_hi": 12.355,
+   "signal_primary": true
+  },
+  "NC: Dose omission/missed or delayed dose": {
+   "a": 20880,
+   "pct": 40.5,
+   "ROR": 10.761,
+   "ROR_lo": 10.57,
+   "ROR_hi": 10.954,
+   "signal_primary": true
+  },
+  "NC: Device issues": {
+   "a": 40550,
+   "pct": 78.6,
+   "ROR": 77.443,
+   "ROR_lo": 75.809,
+   "ROR_hi": 79.112,
+   "signal_primary": true
+  },
+  "NC: Storage/temperature/expiry/preparation": {
+   "a": 3962,
+   "pct": 7.7,
+   "ROR": 4.562,
+   "ROR_lo": 4.414,
+   "ROR_hi": 4.714,
+   "signal_primary": true
+  },
+  "NC: Incorrect dose/technique/schedule/product": {
+   "a": 11126,
+   "pct": 21.6,
+   "ROR": 2.515,
+   "ROR_lo": 2.463,
+   "ROR_hi": 2.569,
+   "signal_primary": true
+  },
+  "NC: Product quality/supply/access": {
+   "a": 3968,
+   "pct": 7.7,
+   "ROR": 6.572,
+   "ROR_lo": 6.359,
+   "ROR_hi": 6.793,
+   "signal_primary": true
+  }
+ },
+ "SG_PS_signal_primary_n": 25,
+ "SG_PS_groups": {
+  "Injection-site reactions": {
+   "a": 894,
+   "pct": 70.2,
+   "ROR": 68.21,
+   "ROR_lo": 60.485,
+   "ROR_hi": 76.922,
+   "signal_primary": true
+  },
+  "Lipoatrophy/lipohypertrophy": {
+   "a": 24,
+   "pct": 1.9,
+   "ROR": 39.433,
+   "ROR_lo": 26.296,
+   "ROR_hi": 59.134,
+   "signal_primary": true
+  },
+  "Hypersensitivity": {
+   "a": 31,
+   "pct": 2.4,
+   "ROR": 0.322,
+   "ROR_lo": 0.226,
+   "ROR_hi": 0.46,
+   "signal_primary": false
+  },
+  "Neoplasm (any)": {
+   "a": 6,
+   "pct": 0.5,
+   "ROR": 0.056,
+   "ROR_lo": 0.025,
+   "ROR_hi": 0.125,
+   "signal_primary": false
+  },
+  "Malignancy": {
+   "a": 6,
+   "pct": 0.5,
+   "ROR": 0.059,
+   "ROR_lo": 0.026,
+   "ROR_hi": 0.131,
+   "signal_primary": false
+  },
+  "CNS/pituitary tumour": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 0.103,
+   "ROR_lo": 0.006,
+   "ROR_hi": 1.648,
+   "signal_primary": false
+  },
+  "Hyperglycaemia/type 2 diabetes": {
+   "a": 2,
+   "pct": 0.2,
+   "ROR": 0.106,
+   "ROR_lo": 0.026,
+   "ROR_hi": 0.423,
+   "signal_primary": false
+  },
+  "IGF-1 increased": {
+   "a": 5,
+   "pct": 0.4,
+   "ROR": 49.498,
+   "ROR_lo": 20.492,
+   "ROR_hi": 119.558,
+   "signal_primary": true
+  },
+  "SCFE/osteonecrosis": {
+   "a": 5,
+   "pct": 0.4,
+   "ROR": 2.633,
+   "ROR_lo": 1.094,
+   "ROR_hi": 6.338,
+   "signal_primary": false
+  },
+  "Scoliosis": {
+   "a": 0,
+   "pct": 0.0,
+   "ROR": 1.036,
+   "ROR_lo": 0.065,
+   "ROR_hi": 16.582,
+   "signal_primary": false
+  },
+  "Intracranial hypertension": {
+   "a": 9,
+   "pct": 0.7,
+   "ROR": 14.409,
+   "ROR_lo": 7.474,
+   "ROR_hi": 27.779,
+   "signal_primary": true
+  },
+  "Fluid retention/musculoskeletal": {
+   "a": 22,
+   "pct": 1.7,
+   "ROR": 0.271,
+   "ROR_lo": 0.178,
+   "ROR_hi": 0.413,
+   "signal_primary": false
+  },
+  "Hypothyroidism": {
+   "a": 2,
+   "pct": 0.2,
+   "ROR": 0.846,
+   "ROR_lo": 0.211,
+   "ROR_hi": 3.385,
+   "signal_primary": false
+  },
+  "Adrenal insufficiency": {
+   "a": 3,
+   "pct": 0.2,
+   "ROR": 2.211,
+   "ROR_lo": 0.712,
+   "ROR_hi": 6.865,
+   "signal_primary": false
+  },
+  "Pancreatitis": {
+   "a": 1,
+   "pct": 0.1,
+   "ROR": 0.268,
+   "ROR_lo": 0.038,
+   "ROR_hi": 1.902,
+   "signal_primary": false
+  },
+  "Headache": {
+   "a": 35,
+   "pct": 2.7,
+   "ROR": 1.032,
+   "ROR_lo": 0.737,
+   "ROR_hi": 1.444,
+   "signal_primary": false
+  },
+  "Pregnancy exposure": {
+   "a": 1,
+   "pct": 0.1,
+   "ROR": 0.083,
+   "ROR_lo": 0.012,
+   "ROR_hi": 0.587,
+   "signal_primary": false
+  },
+  "NC: any non-clinical": {
+   "a": 404,
+   "pct": 31.7,
+   "ROR": 0.798,
+   "ROR_lo": 0.709,
+   "ROR_hi": 0.898,
+   "signal_primary": false
+  },
+  "NC: Dose omission/missed or delayed dose": {
+   "a": 74,
+   "pct": 5.8,
+   "ROR": 0.937,
+   "ROR_lo": 0.741,
+   "ROR_hi": 1.185,
+   "signal_primary": false
+  },
+  "NC: Device issues": {
+   "a": 276,
+   "pct": 21.7,
+   "ROR": 5.222,
+   "ROR_lo": 4.57,
+   "ROR_hi": 5.967,
+   "signal_primary": true
+  },
+  "NC: Storage/temperature/expiry/preparation": {
+   "a": 13,
+   "pct": 1.0,
+   "ROR": 0.553,
+   "ROR_lo": 0.32,
+   "ROR_hi": 0.955,
+   "signal_primary": false
+  },
+  "NC: Incorrect dose/technique/schedule/product": {
+   "a": 150,
+   "pct": 11.8,
+   "ROR": 1.211,
+   "ROR_lo": 1.021,
+   "ROR_hi": 1.435,
+   "signal_primary": false
+  },
+  "NC: Product quality/supply/access": {
+   "a": 17,
+   "pct": 1.3,
+   "ROR": 1.031,
+   "ROR_lo": 0.639,
+   "ROR_hi": 1.663,
+   "signal_primary": false
+  }
+ },
+ "somapacitan_n_PS": 160,
+ "somapacitan_ROR_computed": true,
+ "somapacitan_top_pts": {
+  "Headache": 16,
+  "Arthralgia": 6,
+  "Hospitalisation": 6,
+  "Seizure": 5,
+  "Pyrexia": 5,
+  "Vomiting": 5,
+  "Hypoglycaemia": 5,
+  "Rash": 5,
+  "Pain in extremity": 5,
+  "Abdominal pain": 5
+ },
+ "age_strata": {
+  "n_ped": 182,
+  "n_adult": 4,
+  "n_unknown": 620,
+  "groups": {
+   "Injection-site reactions": {
+    "a_ped": 19,
+    "pct_ped": 10.4,
+    "ROR_ped": 2.321491892433157,
+    "ROR_lo_ped": 1.4430611780960654,
+    "ROR_hi_ped": 3.7346473513641363,
+    "signal_primary_ped": true,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 2.8995287762832618,
+    "ROR_lo_adult": 0.15610104667805338,
+    "ROR_hi_adult": 53.857852355302015,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Lipoatrophy/lipohypertrophy": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 8.720023891294609,
+    "ROR_lo_ped": 1.2152333174421774,
+    "ROR_hi_ped": 62.57137256966859,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 227.0491744535406,
+    "ROR_lo_adult": 12.219643934984235,
+    "ROR_hi_adult": 4218.725839665865,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Hypersensitivity": {
+    "a_ped": 8,
+    "pct_ped": 4.4,
+    "ROR_ped": 0.41857094760708313,
+    "ROR_lo_ped": 0.20603097833519457,
+    "ROR_hi_ped": 0.8503655110332663,
+    "signal_primary_ped": false,
+    "a_adult": 1,
+    "pct_adult": 25.0,
+    "ROR_adult": 3.8703635692177105,
+    "ROR_lo_adult": 0.4025775909150615,
+    "ROR_hi_adult": 37.20950816929145,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Neoplasm (any)": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 0.3494842692710997,
+    "ROR_lo_ped": 0.04895166218140791,
+    "ROR_hi_ped": 2.4950992269746393,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 1.0980035807697144,
+    "ROR_lo_adult": 0.05911303632090406,
+    "ROR_hi_adult": 20.395025165654964,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Malignancy": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 0.4010813142769667,
+    "ROR_lo_ped": 0.05617701745749469,
+    "ROR_hi_ped": 2.8635592977832154,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 1.1289008479206284,
+    "ROR_lo_adult": 0.06077644468879034,
+    "ROR_hi_adult": 20.968931811685394,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "CNS/pituitary tumour": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 1.3809805709143865,
+    "ROR_lo_ped": 0.08594415211617991,
+    "ROR_hi_ped": 22.190076814824863,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 40.165251814383105,
+    "ROR_lo_adult": 2.1622487264443047,
+    "ROR_hi_adult": 746.0970764291761,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 0.8751224481799302,
+    "ROR_lo_ped": 0.12253790930804138,
+    "ROR_hi_ped": 6.249815290900981,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 6.613397860043621,
+    "ROR_lo_adult": 0.3560415867758093,
+    "ROR_hi_adult": 122.84247930500797,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "IGF-1 increased": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 13.118267978259892,
+    "ROR_lo_ped": 1.8233326565235017,
+    "ROR_hi_ped": 94.3815458653366,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 1249.1155070486584,
+    "ROR_lo_adult": 67.12806080559751,
+    "ROR_hi_adult": 23243.47718710383,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "SCFE/osteonecrosis": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 2.5264299162500814,
+    "ROR_lo_ped": 0.1570746949020868,
+    "ROR_hi_ped": 40.63575056250893,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 60.95478492830944,
+    "ROR_lo_adult": 3.2813306510987656,
+    "ROR_hi_adult": 1132.3106997499058,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Scoliosis": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 1.9959673695551794,
+    "ROR_lo_ped": 0.12415134442644767,
+    "ROR_hi_ped": 32.08894562305152,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 345.56012751142987,
+    "ROR_lo_adult": 18.594664955488017,
+    "ROR_hi_adult": 6421.831316217,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Intracranial hypertension": {
+    "a_ped": 1,
+    "pct_ped": 0.5,
+    "ROR_ped": 2.4109819035961224,
+    "ROR_lo_ped": 0.3372810738218325,
+    "ROR_hi_ped": 17.2343905147153,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 222.9542021924482,
+    "ROR_lo_adult": 11.999325646888094,
+    "ROR_hi_adult": 4142.614155001497,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Fluid retention/musculoskeletal": {
+    "a_ped": 9,
+    "pct_ped": 4.9,
+    "ROR_ped": 1.7276110539235094,
+    "ROR_lo_ped": 0.8836288494516501,
+    "ROR_hi_ped": 3.377707682915587,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 1.4588583378054083,
+    "ROR_lo_adult": 0.07854027353020795,
+    "ROR_hi_adult": 27.097787595122014,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Hypothyroidism": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 2.16953216482965,
+    "ROR_lo_ped": 0.13492703003672638,
+    "ROR_hi_ped": 34.88455806778851,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 46.88797070950743,
+    "ROR_lo_adult": 2.524133965322038,
+    "ROR_hi_adult": 870.9845941061757,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Adrenal insufficiency": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 1.7131920891512133,
+    "ROR_lo_ped": 0.1065884522101762,
+    "ROR_hi_ped": 27.536070497982966,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 82.8537444756526,
+    "ROR_lo_adult": 4.46005975300945,
+    "ROR_hi_adult": 1539.159417988674,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Pancreatitis": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 0.885205023590819,
+    "ROR_lo_ped": 0.05511359030865212,
+    "ROR_hi_ped": 14.217689854754552,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 32.037297101194866,
+    "ROR_lo_adult": 1.7247100459126137,
+    "ROR_hi_adult": 595.1078026029157,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Headache": {
+    "a_ped": 8,
+    "pct_ped": 4.4,
+    "ROR_ped": 2.3115753460581043,
+    "ROR_lo_ped": 1.137381239855101,
+    "ROR_hi_ped": 4.6979679225097595,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 3.6963505666275345,
+    "ROR_lo_adult": 0.1989990710383213,
+    "ROR_hi_adult": 68.6586497118703,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "Pregnancy exposure": {
+    "a_ped": 0,
+    "pct_ped": 0.0,
+    "ROR_ped": 0.5431056144300332,
+    "ROR_lo_ped": 0.033824200166563484,
+    "ROR_hi_ped": 8.720493225942027,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 12.830125955343247,
+    "ROR_lo_adult": 0.690721733380231,
+    "ROR_hi_adult": 238.31902787306117,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "NC: any non-clinical": {
+    "a_ped": 119,
+    "pct_ped": 65.4,
+    "ROR_ped": 1.8554534845853232,
+    "ROR_lo_ped": 1.3670536604036574,
+    "ROR_hi_ped": 2.518341256950565,
+    "signal_primary_ped": true,
+    "a_adult": 4,
+    "pct_adult": 100.0,
+    "ROR_adult": 17.10650575998384,
+    "ROR_lo_adult": 0.9209612182579332,
+    "ROR_hi_adult": 317.7468643792586,
+    "signal_primary_adult": false,
+    "RORR": 0.10846478589015339,
+    "RORR_lo": 0.005747151749327504,
+    "RORR_hi": 2.0470330854885534,
+    "p": 0.13833092578322082
+   },
+   "NC: Dose omission/missed or delayed dose": {
+    "a_ped": 67,
+    "pct_ped": 36.8,
+    "ROR_ped": 5.2213292378666605,
+    "ROR_lo_ped": 3.8623485504497213,
+    "ROR_hi_ped": 7.0584719773742055,
+    "signal_primary_ped": true,
+    "a_adult": 1,
+    "pct_adult": 25.0,
+    "ROR_adult": 4.925142227088613,
+    "ROR_lo_adult": 0.5122905309824259,
+    "ROR_hi_adult": 47.35013530414738,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "NC: Device issues": {
+    "a_ped": 49,
+    "pct_ped": 26.9,
+    "ROR_ped": 2.7710609974932954,
+    "ROR_lo_ped": 1.9966961231212665,
+    "ROR_hi_ped": 3.845742455704752,
+    "signal_primary_ped": true,
+    "a_adult": 1,
+    "pct_adult": 25.0,
+    "ROR_adult": 6.597392592891611,
+    "ROR_lo_adult": 0.6862295784237091,
+    "ROR_hi_adult": 63.42715381741591,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "NC: Storage/temperature/expiry/preparation": {
+    "a_ped": 16,
+    "pct_ped": 8.8,
+    "ROR_ped": 4.480478716425918,
+    "ROR_lo_ped": 2.680591381518792,
+    "ROR_hi_ped": 7.488903257225113,
+    "signal_primary_ped": true,
+    "a_adult": 1,
+    "pct_adult": 25.0,
+    "ROR_adult": 25.60669184765502,
+    "ROR_lo_adult": 2.663455727712235,
+    "ROR_hi_adult": 246.18493206341972,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "NC: Incorrect dose/technique/schedule/product": {
+    "a_ped": 22,
+    "pct_ped": 12.1,
+    "ROR_ped": 0.9216911861636216,
+    "ROR_lo_ped": 0.5901651716336438,
+    "ROR_hi_ped": 1.4394523490773798,
+    "signal_primary_ped": false,
+    "a_adult": 1,
+    "pct_adult": 25.0,
+    "ROR_adult": 3.1222041921917385,
+    "ROR_lo_adult": 0.3247576087571661,
+    "ROR_hi_adult": 30.01672248741289,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   },
+   "NC: Product quality/supply/access": {
+    "a_ped": 7,
+    "pct_ped": 3.8,
+    "ROR_ped": 1.8891845493562232,
+    "ROR_lo_ped": 0.8871293504723652,
+    "ROR_hi_ped": 4.0231092113296665,
+    "signal_primary_ped": false,
+    "a_adult": 0,
+    "pct_adult": 0.0,
+    "ROR_adult": 9.97272726160367,
+    "ROR_lo_adult": 0.5368932264537181,
+    "ROR_hi_adult": 185.242212294713,
+    "signal_primary_adult": false,
+    "RORR": NaN,
+    "RORR_lo": NaN,
+    "RORR_hi": NaN,
+    "p": NaN
+   }
+  },
+  "ped_n_signal_primary": 1,
+  "ped_signals": [
+   {
+    "pt_display": "Injection site reaction",
+    "a": 17,
+    "ROR": 36.12185391824381,
+    "ROR_lo": 21.824171998424177,
+    "ROR_hi": 59.78638413338924,
+    "IC025": 3.2734091548735345,
+    "EB05": 20.24547271383817,
+    "labeled": true
+   }
+  ],
+  "ped_top_reported": [
+   {
+    "pt_display": "Product dose omission issue",
+    "a": 50,
+    "pct_of_reports": 27.5,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Injection site reaction",
+    "a": 17,
+    "pct_of_reports": 9.3,
+    "nonclinical": false
+   },
+   {
+    "pt_display": "Off label use",
+    "a": 16,
+    "pct_of_reports": 8.8,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Wrong technique in device usage process",
+    "a": 14,
+    "pct_of_reports": 7.7,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Device malfunction",
+    "a": 10,
+    "pct_of_reports": 5.5,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Product preparation error",
+    "a": 8,
+    "pct_of_reports": 4.4,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Device use error",
+    "a": 8,
+    "pct_of_reports": 4.4,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Device issue",
+    "a": 8,
+    "pct_of_reports": 4.4,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Headache",
+    "a": 8,
+    "pct_of_reports": 4.4,
+    "nonclinical": false
+   },
+   {
+    "pt_display": "Drug dose omission by device",
+    "a": 8,
+    "pct_of_reports": 4.4,
+    "nonclinical": true
+   }
+  ],
+  "adult_n_signal_primary": 0,
+  "adult_signals": [],
+  "adult_top_reported": [
+   {
+    "pt_display": "Off label use",
+    "a": 3,
+    "pct_of_reports": 75.0,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Device defective",
+    "a": 1,
+    "pct_of_reports": 25.0,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Intentional dose omission",
+    "a": 1,
+    "pct_of_reports": 25.0,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Product storage error",
+    "a": 1,
+    "pct_of_reports": 25.0,
+    "nonclinical": true
+   },
+   {
+    "pt_display": "Drug hypersensitivity",
+    "a": 1,
+    "pct_of_reports": 25.0,
+    "nonclinical": false
+   }
+  ]
+ },
+ "adult_by_period": {
+  "before_2025Q3": 0,
+  "from_2025Q3": 4,
+  "by_quarter": {
+   "2026Q2": 1,
+   "2026Q3": 3
+  }
+ },
+ "ped_age_bands": {
+  "12-17": 112,
+  "6-11": 62,
+  "<6": 8
+ },
+ "S5_probable_duplicates_removed": 263,
+ "signal_robustness": [
+  {
+   "pt_display": "Growing pains",
+   "a": 6,
+   "ROR": 624.9510989010989,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Insulin-like growth factor increased",
+   "a": 6,
+   "ROR": 120.73821656050956,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Injection site atrophy",
+   "a": 5,
+   "ROR": 116.86666358410011,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Scoliosis",
+   "a": 3,
+   "ROR": 14.076473289775668,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Injection site reaction",
+   "a": 28,
+   "ROR": 13.57042916120932,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Affective disorder",
+   "a": 3,
+   "ROR": 9.996045538725017,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Aggression",
+   "a": 8,
+   "ROR": 6.644825317254442,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Mood swings",
+   "a": 5,
+   "ROR": 6.495615885363076,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Crying",
+   "a": 5,
+   "ROR": 5.8971659895073785,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Abnormal behaviour",
+   "a": 4,
+   "ROR": 5.380119401055953,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Laboratory test abnormal",
+   "a": 5,
+   "ROR": 4.624312179722519,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": true,
+   "S6": false
+  },
+  {
+   "pt_display": "Injection site rash",
+   "a": 5,
+   "ROR": 3.9415081648356565,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": false,
+   "S4": false,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Injection site pain",
+   "a": 48,
+   "ROR": 3.84181019363048,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Headache",
+   "a": 73,
+   "ROR": 3.6358894915270525,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Lethargy",
+   "a": 6,
+   "ROR": 3.572459240840992,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": true,
+   "S6": false
+  },
+  {
+   "pt_display": "Myalgia",
+   "a": 12,
+   "ROR": 2.218930469299111,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": true,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Weight increased",
+   "a": 18,
+   "ROR": 2.1651429049588327,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": true,
+   "S6": true
+  },
+  {
+   "pt_display": "Abdominal pain upper",
+   "a": 15,
+   "ROR": 2.0343528198393486,
+   "labeled": true,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": false,
+   "S6": true
+  },
+  {
+   "pt_display": "Pain in extremity",
+   "a": 18,
+   "ROR": 1.9302929388026202,
+   "labeled": false,
+   "S1": true,
+   "S2": true,
+   "S3": true,
+   "S4": false,
+   "S5": false,
+   "S6": true
+  }
+ ],
+ "S8_n": {
+  "L": 780,
+  "DS": 51562,
+  "SG": 1260
+ },
+ "S9_n_comp": 51799,
+ "S12_n": {
+  "L": 474,
+  "DS": 13591,
+  "SG": 1141
+ },
+ "S12": {
+  "S12 (post hoc): L_PS vs DS_PS, reports with >=1 clinical PT": {
+   "Injection-site reactions": {
+    "a_L": 97,
+    "n_L": 474,
+    "c_comp": 3832,
+    "n_comp": 13591,
+    "ROR": 0.6552547858879296,
+    "ROR_lo": 0.5225766337708087,
+    "ROR_hi": 0.8216188912444646,
+    "higher": false,
+    "lower": true
+   },
+   "Lipoatrophy/lipohypertrophy": {
+    "a_L": 7,
+    "n_L": 474,
+    "c_comp": 26,
+    "n_comp": 13591,
+    "ROR": 7.820375555921595,
+    "ROR_lo": 3.3772176197585986,
+    "ROR_hi": 18.109071052408982,
+    "higher": true,
+    "lower": false
+   },
+   "Hypersensitivity": {
+    "a_L": 40,
+    "n_L": 474,
+    "c_comp": 389,
+    "n_comp": 13591,
+    "ROR": 3.127954225060121,
+    "ROR_lo": 2.2281617590940304,
+    "ROR_hi": 4.391107420338133,
+    "higher": true,
+    "lower": false
+   },
+   "Neoplasm (any)": {
+    "a_L": 4,
+    "n_L": 474,
+    "c_comp": 619,
+    "n_comp": 13591,
+    "ROR": 0.17835218093699517,
+    "ROR_lo": 0.06644010225247882,
+    "ROR_hi": 0.4787695889464992,
+    "higher": false,
+    "lower": true
+   },
+   "Malignancy": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 474,
+    "n_comp": 13591,
+    "ROR": 0.17626111962159693,
+    "ROR_lo": 0.056433852939830394,
+    "ROR_hi": 0.5505203113348205,
+    "higher": false,
+    "lower": true
+   },
+   "CNS/pituitary tumour": {
+    "a_L": 2,
+    "n_L": 474,
+    "c_comp": 322,
+    "n_comp": 13591,
+    "ROR": 0.1746104853142436,
+    "ROR_lo": 0.04334983495767463,
+    "ROR_hi": 0.7033203612296097,
+    "higher": false,
+    "lower": true
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 291,
+    "n_comp": 13591,
+    "ROR": 0.5859547096660498,
+    "ROR_lo": 0.2597266987016105,
+    "ROR_hi": 1.3219392672998838,
+    "higher": false,
+    "lower": false
+   },
+   "IGF-1 increased": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 167,
+    "n_comp": 13591,
+    "ROR": 1.030554276063258,
+    "ROR_lo": 0.454064549320377,
+    "ROR_hi": 2.3389672624781688,
+    "higher": false,
+    "lower": false
+   },
+   "SCFE/osteonecrosis": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 53,
+    "n_comp": 13591,
+    "ROR": 0.5400295185288604,
+    "ROR_lo": 0.07452215459907259,
+    "ROR_hi": 3.9133581476741415,
+    "higher": false,
+    "lower": false
+   },
+   "Scoliosis": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 84,
+    "n_comp": 13591,
+    "ROR": 1.0241886563542615,
+    "ROR_lo": 0.3225830664584845,
+    "ROR_hi": 3.2517590440220645,
+    "higher": false,
+    "lower": false
+   },
+   "Intracranial hypertension": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 99,
+    "n_comp": 13591,
+    "ROR": 0.8680434922473139,
+    "ROR_lo": 0.2742250616482507,
+    "ROR_hi": 2.7477412162985613,
+    "higher": false,
+    "lower": false
+   },
+   "Fluid retention/musculoskeletal": {
+    "a_L": 57,
+    "n_L": 474,
+    "c_comp": 702,
+    "n_comp": 13591,
+    "ROR": 2.5096948082559596,
+    "ROR_lo": 1.8835213341035535,
+    "ROR_hi": 3.344038592259784,
+    "higher": true,
+    "lower": false
+   },
+   "Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 74,
+    "n_comp": 13591,
+    "ROR": 0.19119383879887694,
+    "ROR_lo": 0.01182998003488623,
+    "ROR_hi": 3.090037674353734,
+    "higher": false,
+    "lower": false
+   },
+   "Adrenal insufficiency": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 61,
+    "n_comp": 13591,
+    "ROR": 0.23183153854720842,
+    "ROR_lo": 0.014316351986004562,
+    "ROR_hi": 3.7541590425903815,
+    "higher": false,
+    "lower": false
+   },
+   "Pancreatitis": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 12,
+    "n_comp": 13591,
+    "ROR": 1.1447418335089568,
+    "ROR_lo": 0.0676738956377382,
+    "ROR_hi": 19.363949024011667,
+    "higher": false,
+    "lower": false
+   },
+   "Headache": {
+    "a_L": 73,
+    "n_L": 474,
+    "c_comp": 742,
+    "n_comp": 13591,
+    "ROR": 3.152418818183652,
+    "ROR_lo": 2.430298830363353,
+    "ROR_hi": 4.089103891702333,
+    "higher": true,
+    "lower": false
+   },
+   "Pregnancy exposure": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 24,
+    "n_comp": 13591,
+    "ROR": 0.583535837938969,
+    "ROR_lo": 0.03543180892895705,
+    "ROR_hi": 9.6104061421726,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site pain": {
+    "a_L": 48,
+    "n_L": 474,
+    "c_comp": 2341,
+    "n_comp": 13591,
+    "ROR": 0.5414804074339243,
+    "ROR_lo": 0.40045005005817136,
+    "ROR_hi": 0.7321787863235798,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site erythema": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 111,
+    "n_comp": 13591,
+    "ROR": 1.5569415569415568,
+    "ROR_lo": 0.6811735722913345,
+    "ROR_hi": 3.558662740801162,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site swelling": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 83,
+    "n_comp": 13591,
+    "ROR": 1.03660501880132,
+    "ROR_lo": 0.3264159415059993,
+    "ROR_hi": 3.291965337374112,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site bruising": {
+    "a_L": 5,
+    "n_L": 474,
+    "c_comp": 570,
+    "n_comp": 13591,
+    "ROR": 0.2435379493509894,
+    "ROR_lo": 0.10049335419000487,
+    "ROR_hi": 0.5901955731514846,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site haemorrhage": {
+    "a_L": 4,
+    "n_L": 474,
+    "c_comp": 752,
+    "n_comp": 13591,
+    "ROR": 0.14530330466274333,
+    "ROR_lo": 0.05415868692656323,
+    "ROR_hi": 0.38983682109099793,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site pruritus": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 41,
+    "n_comp": 13591,
+    "ROR": 2.105017865465279,
+    "ROR_lo": 0.6495040407206921,
+    "ROR_hi": 6.82228275133013,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site reaction": {
+    "a_L": 28,
+    "n_L": 474,
+    "c_comp": 66,
+    "n_comp": 13591,
+    "ROR": 12.865199075961407,
+    "ROR_lo": 8.186827147201292,
+    "ROR_hi": 20.217032103908508,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site atrophy": {
+    "a_L": 5,
+    "n_L": 474,
+    "c_comp": 10,
+    "n_comp": 13591,
+    "ROR": 14.478678038379531,
+    "ROR_lo": 4.929321613441534,
+    "ROR_hi": 42.5275796911725,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Lipoatrophy": {
+    "a_L": 2,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 13591,
+    "ROR": 143.8253968253968,
+    "ROR_lo": 6.894996905020591,
+    "ROR_hi": 3000.1093629092893,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Headache": {
+    "a_L": 73,
+    "n_L": 474,
+    "c_comp": 742,
+    "n_comp": 13591,
+    "ROR": 3.152418818183652,
+    "ROR_lo": 2.430298830363353,
+    "ROR_hi": 4.089103891702333,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor increased": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 154,
+    "n_comp": 13591,
+    "ROR": 1.1186313686313687,
+    "ROR_lo": 0.49228849923382956,
+    "ROR_hi": 2.541875629500992,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor decreased": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 54,
+    "n_comp": 13591,
+    "ROR": 0.2617434092864531,
+    "ROR_lo": 0.016140245349220844,
+    "ROR_hi": 4.244645036217057,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hyperglycaemia": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 18,
+    "n_comp": 13591,
+    "ROR": 1.5941977918722106,
+    "ROR_lo": 0.212370320358077,
+    "ROR_hi": 11.967145857881984,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Blood glucose increased": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 110,
+    "n_comp": 13591,
+    "ROR": 0.25910051893138575,
+    "ROR_lo": 0.036096410118449745,
+    "ROR_hi": 1.859827021308139,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Scoliosis": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 79,
+    "n_comp": 13591,
+    "ROR": 1.0894138514875433,
+    "ROR_lo": 0.34269736412920393,
+    "ROR_hi": 3.4631796565714663,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Epiphysiolysis": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 27,
+    "n_comp": 13591,
+    "ROR": 1.0620938062798528,
+    "ROR_lo": 0.14401635058718715,
+    "ROR_hi": 7.832744328951115,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Arthralgia": {
+    "a_L": 22,
+    "n_L": 474,
+    "c_comp": 259,
+    "n_comp": 13591,
+    "ROR": 2.5054156558581337,
+    "ROR_lo": 1.6051472976611412,
+    "ROR_hi": 3.9106115792397445,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Pain in extremity": {
+    "a_L": 18,
+    "n_L": 474,
+    "c_comp": 251,
+    "n_comp": 13591,
+    "ROR": 2.097924093101279,
+    "ROR_lo": 1.288746752861514,
+    "ROR_hi": 3.4151670920933657,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Oedema peripheral": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 16,
+    "n_comp": 13591,
+    "ROR": 1.7937367864693448,
+    "ROR_lo": 0.2373784183606596,
+    "ROR_hi": 13.554272041045,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 39,
+    "n_comp": 13591,
+    "ROR": 0.3615397953875498,
+    "ROR_lo": 0.022187379496506055,
+    "ROR_hi": 5.891233061996124,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Pyrexia": {
+    "a_L": 13,
+    "n_L": 474,
+    "c_comp": 283,
+    "n_comp": 13591,
+    "ROR": 1.3260771253152235,
+    "ROR_lo": 0.7547056926362067,
+    "ROR_hi": 2.330021569258168,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Vomiting": {
+    "a_L": 25,
+    "n_L": 474,
+    "c_comp": 242,
+    "n_comp": 13591,
+    "ROR": 3.071333910066447,
+    "ROR_lo": 2.0132673646597983,
+    "ROR_hi": 4.685464113067792,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Urticaria": {
+    "a_L": 7,
+    "n_L": 474,
+    "c_comp": 67,
+    "n_comp": 13591,
+    "ROR": 3.0256000511361822,
+    "ROR_lo": 1.3814240115559464,
+    "ROR_hi": 6.626680579501806,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Rash": {
+    "a_L": 17,
+    "n_L": 474,
+    "c_comp": 102,
+    "n_comp": 13591,
+    "ROR": 4.919401896425967,
+    "ROR_lo": 2.9192722504444855,
+    "ROR_hi": 8.289913698482438,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Hypersensitivity": {
+    "a_L": 9,
+    "n_L": 474,
+    "c_comp": 73,
+    "n_comp": 13591,
+    "ROR": 3.5840919133893063,
+    "ROR_lo": 1.7823355046829004,
+    "ROR_hi": 7.207237251276118,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Fatigue": {
+    "a_L": 28,
+    "n_L": 474,
+    "c_comp": 463,
+    "n_comp": 13591,
+    "ROR": 1.780085037143217,
+    "ROR_lo": 1.2016784883848184,
+    "ROR_hi": 2.6368972816682743,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Growth retardation": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 134,
+    "n_comp": 13591,
+    "ROR": 0.10543283675635867,
+    "ROR_lo": 0.006550618578066802,
+    "ROR_hi": 1.6969516594528278,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Dose omission issue": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 13591,
+    "ROR": 28.643835616438352,
+    "ROR_lo": 0.5677180842699191,
+    "ROR_hi": 1445.205536964106,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Device issue": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 651,
+    "n_comp": 13591,
+    "ROR": 0.02093005765247904,
+    "ROR_lo": 0.0013057156756878685,
+    "ROR_hi": 0.3354997734137769,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Product dose omission issue": {
+    "a_L": 20,
+    "n_L": 474,
+    "c_comp": 860,
+    "n_comp": 13591,
+    "ROR": 0.652136051634054,
+    "ROR_lo": 0.4145283214299363,
+    "ROR_hi": 1.0259405880250203,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Device malfunction": {
+    "a_L": 8,
+    "n_L": 474,
+    "c_comp": 250,
+    "n_comp": 13591,
+    "ROR": 0.9161201716738198,
+    "ROR_lo": 0.45040575932395505,
+    "ROR_hi": 1.8633779688061631,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Product storage error": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 284,
+    "n_comp": 13591,
+    "ROR": 0.04928877127158178,
+    "ROR_lo": 0.00307065933593827,
+    "ROR_hi": 0.7911600433917837,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Incorrect dose administered": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 515,
+    "n_comp": 13591,
+    "ROR": 0.32551655464276824,
+    "ROR_lo": 0.14479718670698236,
+    "ROR_hi": 0.731789268536864,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Underdose": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 42,
+    "n_comp": 13591,
+    "ROR": 0.335944957540445,
+    "ROR_lo": 0.02064202483164813,
+    "ROR_hi": 5.467439140166964,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Drug ineffective": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 269,
+    "n_comp": 13591,
+    "ROR": 0.3154405322851799,
+    "ROR_lo": 0.1007222248858243,
+    "ROR_hi": 0.9878924886851036,
+    "higher": false,
+    "lower": true
+   }
+  },
+  "S12 (post hoc): L_PS vs SG_PS, reports with >=1 clinical PT": {
+   "Injection-site reactions": {
+    "a_L": 97,
+    "n_L": 474,
+    "c_comp": 894,
+    "n_comp": 1141,
+    "ROR": 0.0710869397516007,
+    "ROR_lo": 0.05459824876187459,
+    "ROR_hi": 0.09255522141905057,
+    "higher": false,
+    "lower": true
+   },
+   "Lipoatrophy/lipohypertrophy": {
+    "a_L": 7,
+    "n_L": 474,
+    "c_comp": 24,
+    "n_comp": 1141,
+    "ROR": 0.6976266952177016,
+    "ROR_lo": 0.2985216841030463,
+    "ROR_hi": 1.6303103988666179,
+    "higher": false,
+    "lower": false
+   },
+   "Hypersensitivity": {
+    "a_L": 40,
+    "n_L": 474,
+    "c_comp": 31,
+    "n_comp": 1141,
+    "ROR": 3.300133789207671,
+    "ROR_lo": 2.0380913240178753,
+    "ROR_hi": 5.3436678221072,
+    "higher": true,
+    "lower": false
+   },
+   "Neoplasm (any)": {
+    "a_L": 4,
+    "n_L": 474,
+    "c_comp": 6,
+    "n_comp": 1141,
+    "ROR": 1.6099290780141844,
+    "ROR_lo": 0.45223918052044004,
+    "ROR_hi": 5.731196561193255,
+    "higher": false,
+    "lower": false
+   },
+   "Malignancy": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 6,
+    "n_comp": 1141,
+    "ROR": 1.2048832271762209,
+    "ROR_lo": 0.30008064959833314,
+    "ROR_hi": 4.837844736319342,
+    "higher": false,
+    "lower": false
+   },
+   "CNS/pituitary tumour": {
+    "a_L": 2,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 12.079365079365079,
+    "ROR_lo": 0.5787916543198484,
+    "ROR_hi": 252.0959997117581,
+    "higher": false,
+    "lower": false
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 2,
+    "n_comp": 1141,
+    "ROR": 7.301282051282051,
+    "ROR_lo": 1.4682956804659046,
+    "ROR_hi": 36.306528924377176,
+    "higher": true,
+    "lower": false
+   },
+   "IGF-1 increased": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 5,
+    "n_comp": 1141,
+    "ROR": 2.9128205128205127,
+    "ROR_lo": 0.8846263792036663,
+    "ROR_hi": 9.591081092953225,
+    "higher": false,
+    "lower": false
+   },
+   "SCFE/osteonecrosis": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 5,
+    "n_comp": 1141,
+    "ROR": 0.480338266384778,
+    "ROR_lo": 0.05596580888528888,
+    "ROR_hi": 4.122603688735071,
+    "higher": false,
+    "lower": false
+   },
+   "Scoliosis": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 16.94697773064687,
+    "ROR_lo": 0.8736338238286221,
+    "ROR_hi": 328.7419126521596,
+    "higher": false,
+    "lower": false
+   },
+   "Intracranial hypertension": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 9,
+    "n_comp": 1141,
+    "ROR": 0.8011323425336165,
+    "ROR_lo": 0.21592849946049902,
+    "ROR_hi": 2.972340528725854,
+    "higher": false,
+    "lower": false
+   },
+   "Fluid retention/musculoskeletal": {
+    "a_L": 57,
+    "n_L": 474,
+    "c_comp": 22,
+    "n_comp": 1141,
+    "ROR": 6.952583387835187,
+    "ROR_lo": 4.19743913738631,
+    "ROR_hi": 11.516168354712946,
+    "higher": true,
+    "lower": false
+   },
+   "Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 2,
+    "n_comp": 1141,
+    "ROR": 0.480295047418335,
+    "ROR_lo": 0.023013797558584705,
+    "ROR_hi": 10.023696957763935,
+    "higher": false,
+    "lower": false
+   },
+   "Adrenal insufficiency": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 0.342766822218877,
+    "ROR_lo": 0.01767010305261346,
+    "ROR_hi": 6.6490327795032425,
+    "higher": false,
+    "lower": false
+   },
+   "Pancreatitis": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 0.8011942395504038,
+    "ROR_lo": 0.03257829830569239,
+    "ROR_hi": 19.703675233908363,
+    "higher": false,
+    "lower": false
+   },
+   "Headache": {
+    "a_L": 73,
+    "n_L": 474,
+    "c_comp": 35,
+    "n_comp": 1141,
+    "ROR": 5.752618453865336,
+    "ROR_lo": 3.7840762015675273,
+    "ROR_hi": 8.74523062248155,
+    "higher": true,
+    "lower": false
+   },
+   "Pregnancy exposure": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 0.8011942395504038,
+    "ROR_lo": 0.03257829830569239,
+    "ROR_hi": 19.703675233908363,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site pain": {
+    "a_L": 48,
+    "n_L": 474,
+    "c_comp": 827,
+    "n_comp": 1141,
+    "ROR": 0.04278147725530936,
+    "ROR_lo": 0.03089625950001744,
+    "ROR_hi": 0.05923871775305098,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site erythema": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 50,
+    "n_comp": 1141,
+    "ROR": 0.27974358974358976,
+    "ROR_lo": 0.11912328535267286,
+    "ROR_hi": 0.656936851354847,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site swelling": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 41,
+    "n_comp": 1141,
+    "ROR": 0.17088705918906325,
+    "ROR_lo": 0.05265541186041345,
+    "ROR_hi": 0.5545942186474638,
+    "higher": false,
+    "lower": true
+   },
+   "PT: Injection site bruising": {
+    "a_L": 5,
+    "n_L": 474,
+    "c_comp": 18,
+    "n_comp": 1141,
+    "ROR": 0.6651267472162995,
+    "ROR_lo": 0.2455022487831399,
+    "ROR_hi": 1.8019940430497472,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site haemorrhage": {
+    "a_L": 4,
+    "n_L": 474,
+    "c_comp": 23,
+    "n_comp": 1141,
+    "ROR": 0.41369102682701203,
+    "ROR_lo": 0.14228942148539964,
+    "ROR_hi": 1.2027616943733819,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site pruritus": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 21,
+    "n_comp": 1141,
+    "ROR": 0.3397027600849257,
+    "ROR_lo": 0.10084184811325624,
+    "ROR_hi": 1.1443459969090637,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Injection site reaction": {
+    "a_L": 28,
+    "n_L": 474,
+    "c_comp": 8,
+    "n_comp": 1141,
+    "ROR": 8.891255605381165,
+    "ROR_lo": 4.021754927330994,
+    "ROR_hi": 19.656699045231452,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Injection site atrophy": {
+    "a_L": 5,
+    "n_L": 474,
+    "c_comp": 5,
+    "n_comp": 1141,
+    "ROR": 2.4221748400852876,
+    "ROR_lo": 0.6979511676875401,
+    "ROR_hi": 8.405933290978757,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Lipoatrophy": {
+    "a_L": 2,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 4.830508474576271,
+    "ROR_lo": 0.43694664518815585,
+    "ROR_hi": 53.40197111000882,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Headache": {
+    "a_L": 73,
+    "n_L": 474,
+    "c_comp": 35,
+    "n_comp": 1141,
+    "ROR": 5.752618453865336,
+    "ROR_lo": 3.7840762015675273,
+    "ROR_hi": 8.74523062248155,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor increased": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 4.863247863247863,
+    "ROR_lo": 1.2111910800104644,
+    "ROR_hi": 19.527207696394665,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Insulin-like growth factor decreased": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 4,
+    "n_comp": 1141,
+    "ROR": 0.2663622526636225,
+    "ROR_lo": 0.014312009338807842,
+    "ROR_hi": 4.957294811963093,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hyperglycaemia": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 7.232312565997889,
+    "ROR_lo": 0.2940808909240558,
+    "ROR_hi": 177.863800969641,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Blood glucose increased": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 2.4101479915433406,
+    "ROR_lo": 0.15043223528315786,
+    "ROR_hi": 38.614152945387666,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Scoliosis": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 16.94697773064687,
+    "ROR_lo": 0.8736338238286221,
+    "ROR_hi": 328.7419126521596,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Epiphysiolysis": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 5,
+    "n_comp": 1141,
+    "ROR": 0.480338266384778,
+    "ROR_lo": 0.05596580888528888,
+    "ROR_hi": 4.122603688735071,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Arthralgia": {
+    "a_L": 22,
+    "n_L": 474,
+    "c_comp": 6,
+    "n_comp": 1141,
+    "ROR": 9.207227138643068,
+    "ROR_lo": 3.7088451533076414,
+    "ROR_hi": 22.856988652374103,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Pain in extremity": {
+    "a_L": 18,
+    "n_L": 474,
+    "c_comp": 10,
+    "n_comp": 1141,
+    "ROR": 4.4644736842105255,
+    "ROR_lo": 2.0452261621840706,
+    "ROR_hi": 9.745389358663243,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Oedema peripheral": {
+    "a_L": 1,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 0.8019732205778718,
+    "ROR_lo": 0.08320633582117595,
+    "ROR_hi": 7.729712409236506,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Hypothyroidism": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 0.8011942395504038,
+    "ROR_lo": 0.03257829830569239,
+    "ROR_hi": 19.703675233908363,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Pyrexia": {
+    "a_L": 13,
+    "n_L": 474,
+    "c_comp": 13,
+    "n_comp": 1141,
+    "ROR": 2.4468546637744035,
+    "ROR_lo": 1.1257290796754713,
+    "ROR_hi": 5.318417951289424,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Vomiting": {
+    "a_L": 25,
+    "n_L": 474,
+    "c_comp": 16,
+    "n_comp": 1141,
+    "ROR": 3.9149498886414253,
+    "ROR_lo": 2.070581501620764,
+    "ROR_hi": 7.402187558700931,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Urticaria": {
+    "a_L": 7,
+    "n_L": 474,
+    "c_comp": 6,
+    "n_comp": 1141,
+    "ROR": 2.83547466095646,
+    "ROR_lo": 0.9478633465848321,
+    "ROR_hi": 8.482147328403514,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Rash": {
+    "a_L": 17,
+    "n_L": 474,
+    "c_comp": 9,
+    "n_comp": 1141,
+    "ROR": 4.678823243374667,
+    "ROR_lo": 2.0705285675596636,
+    "ROR_hi": 10.572849506029439,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Hypersensitivity": {
+    "a_L": 9,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 7.341935483870968,
+    "ROR_lo": 1.9787995301799306,
+    "ROR_hi": 27.24076685242703,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Fatigue": {
+    "a_L": 28,
+    "n_L": 474,
+    "c_comp": 7,
+    "n_comp": 1141,
+    "ROR": 10.170403587443946,
+    "ROR_lo": 4.410628903401994,
+    "ROR_hi": 23.451782364122696,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Growth retardation": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 0.342766822218877,
+    "ROR_lo": 0.01767010305261346,
+    "ROR_hi": 6.6490327795032425,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Dose omission issue": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 2.405690200210748,
+    "ROR_lo": 0.04766181121093214,
+    "ROR_hi": 121.42520798837351,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Device issue": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 9,
+    "n_comp": 1141,
+    "ROR": 0.12561699295657477,
+    "ROR_lo": 0.00729618440846727,
+    "ROR_hi": 2.1627234231004064,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Product dose omission issue": {
+    "a_L": 20,
+    "n_L": 474,
+    "c_comp": 12,
+    "n_comp": 1141,
+    "ROR": 4.144640234948605,
+    "ROR_lo": 2.0094959194478426,
+    "ROR_hi": 8.548433719574266,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Device malfunction": {
+    "a_L": 8,
+    "n_L": 474,
+    "c_comp": 1,
+    "n_comp": 1141,
+    "ROR": 19.570815450643778,
+    "ROR_lo": 2.4408691131654687,
+    "ROR_hi": 156.91821217993845,
+    "higher": true,
+    "lower": false
+   },
+   "PT: Product storage error": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 0,
+    "n_comp": 1141,
+    "ROR": 2.405690200210748,
+    "ROR_lo": 0.04766181121093214,
+    "ROR_hi": 121.42520798837351,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Incorrect dose administered": {
+    "a_L": 6,
+    "n_L": 474,
+    "c_comp": 18,
+    "n_comp": 1141,
+    "ROR": 0.7998575498575499,
+    "ROR_lo": 0.3155158121235415,
+    "ROR_hi": 2.0277021799896904,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Underdose": {
+    "a_L": 0,
+    "n_L": 474,
+    "c_comp": 3,
+    "n_comp": 1141,
+    "ROR": 0.342766822218877,
+    "ROR_lo": 0.01767010305261346,
+    "ROR_hi": 6.6490327795032425,
+    "higher": false,
+    "lower": false
+   },
+   "PT: Drug ineffective": {
+    "a_L": 3,
+    "n_L": 474,
+    "c_comp": 7,
+    "n_comp": 1141,
+    "ROR": 1.031847133757962,
+    "ROR_lo": 0.2656863537399848,
+    "ROR_hi": 4.007388759177687,
+    "higher": false,
+    "lower": false
+   }
+  }
+ },
+ "share_reports_only_nonclinical": {
+  "L_PS": 41.2,
+  "DS_PS": 73.6,
+  "SG_PS": 10.4,
+  "SP_PS": 1.9
+ },
+ "S10": {
+  "N_whole": 19015459,
+  "n_primary_signals_retained": 15,
+  "n_primary_signals": 19
+ },
+ "tto": {
+  "n_with_complete_dates": 148,
+  "n_negative_excluded": 18,
+  "n_over5y_excluded": 1,
+  "n_valid": 129,
+  "median": 14.0,
+  "q1": 2.0,
+  "q3": 88.0,
+  "within_30_days": 77,
+  "within_30_days_pct": 59.7,
+  "weibull": {
+   "shape": 0.5117719891383462,
+   "shape_lo": 0.46848419198688346,
+   "shape_hi": 0.5708851478822088,
+   "scale": 39.668583184305916
+  },
+  "by_group": {
+   "Injection-site reactions": {
+    "n": 14,
+    "median": 7.5,
+    "q1": 0.0,
+    "q3": 108.75,
+    "weibull": {
+     "shape": 0.4278639237549273,
+     "shape_lo": 0.3602270354500873,
+     "shape_hi": 0.6593523805772998,
+     "scale": 38.0361954435933
+    }
+   },
+   "Hypersensitivity": {
+    "n": 16,
+    "median": 1.0,
+    "q1": 0.0,
+    "q3": 5.0,
+    "weibull": {
+     "shape": 0.41757563124256625,
+     "shape_lo": 0.36479261898420257,
+     "shape_hi": 0.8526096509623016,
+     "scale": 8.061461016365497
+    }
+   },
+   "Hyperglycaemia/type 2 diabetes": {
+    "n": 4,
+    "median": 55.0,
+    "q1": 11.5,
+    "q3": 171.25,
+    "weibull": null
+   },
+   "SCFE/osteonecrosis": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "weibull": null
+   },
+   "Scoliosis": {
+    "n": 1,
+    "median": 77.0,
+    "q1": 77.0,
+    "q3": 77.0,
+    "weibull": null
+   },
+   "Intracranial hypertension": {
+    "n": 0,
+    "median": null,
+    "q1": null,
+    "q3": null,
+    "weibull": null
+   },
+   "Headache": {
+    "n": 17,
+    "median": 4.0,
+    "q1": 1.0,
+    "q3": 31.0,
+    "weibull": {
+     "shape": 0.5214521185276304,
+     "shape_lo": 0.4422259604754953,
+     "shape_hi": 0.7514017166475659,
+     "scale": 19.22976331087144
+    }
+   },
+   "IGF-1 increased": {
+    "n": 1,
+    "median": 400.0,
+    "q1": 400.0,
+    "q3": 400.0,
+    "weibull": null
+   }
+  }
+ },
+ "L_PS_deaths_n": 0,
+ "L_PS_death_pts": {},
+ "L_PS_death_ages": [],
+ "key_group_case_summary": {
+  "CNS/pituitary tumour": {
+   "n": 2,
+   "n_age_lt18": 0,
+   "median_age": NaN
+  },
+  "Hyperglycaemia/type 2 diabetes": {
+   "n": 6,
+   "n_age_lt18": 1,
+   "median_age": 13.0
+  },
+  "Intracranial hypertension": {
+   "n": 3,
+   "n_age_lt18": 1,
+   "median_age": 7.0
+  },
+  "Malignancy": {
+   "n": 3,
+   "n_age_lt18": 1,
+   "median_age": 16.0
+  },
+  "SCFE/osteonecrosis": {
+   "n": 1,
+   "n_age_lt18": 0,
+   "median_age": NaN
+  },
+  "Scoliosis": {
+   "n": 3,
+   "n_age_lt18": 0,
+   "median_age": NaN
+  }
+ }
+}

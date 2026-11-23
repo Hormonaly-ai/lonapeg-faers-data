@@ -1,0 +1,22 @@
+key,identifier,design,decision,reason
+dka2026,PMID 42488375,Case report,Included,
+sat216,PMC12545226 (J Endocr Soc 2025;9 Suppl 1),Case series (conference abstract; no fuller publication),Included,abstract is the only publication
+jpem2025,PMID 39843388,"Retrospective cohort (switch), n=14",Included,
+hyperglyc2023,PMID 37015214,Case report,Not retrieved,"no UBC licence for Karger article (EZproxy, 23 Nov 2026); title/abstract only"
+edm2026,PMID 41499205,Case report,Excluded,no adverse event described
+php1b2024,PMID 39193092,Case report,Excluded,no lonapegsomatropin safety data
+jei2026,PMID 42525213,Prospective cohort,Excluded,wrong intervention (somatrogon)
+insights2025,PMID 40702497,Registry interim analysis,Excluded,safety not reported by product
+sprogoe2018,PMID 29273485,"Phase 1 RCT, healthy adults",Included,
+chatelain2017,PMID 28201598,"Phase 2 RCT, children",Included,
+hoybye2017,PMID 28196799,"Phase 2 RCT, adults",Included,
+thornton2021,PMID 34272849,Phase 3 RCT heiGHt,Included,
+maniatis2022f,PMID 35263755,Phase 3 single-arm fliGHt,Included,
+maniatis2022e,PMID 35428884,Phase 3 extension enliGHten (interim),Included,companion report of enliGHten
+enlighten_final,PMID 40049149,Phase 3 extension enliGHten (final),Included,
+foresight,PMID 41420532 (+ correction PMID 42842218),Phase 3 RCT foresiGHt (adults),Included,
+adult_ole,PMID 42855131,foresiGHt open-label extension,Included,
+china,PMID 41758754,"Phase 3 RCT, China",Included,
+turner,PMID 42929032,"Phase 2 RCT, Turner syndrome (New InsiGHTS)",Included,
+coach,PMID 42144862,"Phase 2 single-arm, achondroplasia (with navepegritide)",Included,
+mygind2026,PMID 42768234,"Pooled immunogenicity analysis (heiGHt, fliGHt, enliGHten)",Included,companion analysis

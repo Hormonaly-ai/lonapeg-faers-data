@@ -1,0 +1,149 @@
+set,variable,category,n,pct
+Lonapegsomatropin (PS),Sex,Female,58,7.2
+Lonapegsomatropin (PS),Sex,Male,198,24.6
+Lonapegsomatropin (PS),Sex,Unknown/not reported,550,68.2
+Lonapegsomatropin (PS),Age (years),<6,8,1.0
+Lonapegsomatropin (PS),Age (years),6-11,62,7.7
+Lonapegsomatropin (PS),Age (years),12-17,112,13.9
+Lonapegsomatropin (PS),Age (years),18-64,3,0.4
+Lonapegsomatropin (PS),Age (years),>=65,1,0.1
+Lonapegsomatropin (PS),Age (years),Unknown,620,76.9
+Lonapegsomatropin (PS),Reporter,Physician,104,12.9
+Lonapegsomatropin (PS),Reporter,Other health professional,88,10.9
+Lonapegsomatropin (PS),Reporter,Pharmacist,14,1.7
+Lonapegsomatropin (PS),Reporter,Nurse,0,0.0
+Lonapegsomatropin (PS),Reporter,Consumer,541,67.1
+Lonapegsomatropin (PS),Reporter,Lawyer,0,0.0
+Lonapegsomatropin (PS),Reporter,Unknown/other,59,7.3
+Lonapegsomatropin (PS),Country,United States,802,99.5
+Lonapegsomatropin (PS),Country,Other,4,0.5
+Lonapegsomatropin (PS),Country,Unknown,0,0.0
+Lonapegsomatropin (PS),Report type,Expedited (15-day),82,10.2
+Lonapegsomatropin (PS),Report type,Periodic,701,87.0
+Lonapegsomatropin (PS),Report type,Direct,23,2.9
+Lonapegsomatropin (PS),Report type,Other/unknown,0,0.0
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2021,1,0.1
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2022,87,10.8
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2023,183,22.7
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2024,180,22.3
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2025,78,9.7
+Lonapegsomatropin (PS),Year of FDA receipt (retained version),2026,277,34.4
+Lonapegsomatropin (PS),Outcome,Death,0,0.0
+Lonapegsomatropin (PS),Outcome,Life-threatening,5,0.6
+Lonapegsomatropin (PS),Outcome,Hospitalization,20,2.5
+Lonapegsomatropin (PS),Outcome,Disability,1,0.1
+Lonapegsomatropin (PS),Outcome,Congenital anomaly,0,0.0
+Lonapegsomatropin (PS),Outcome,Required intervention,1,0.1
+Lonapegsomatropin (PS),Outcome,Other serious,41,5.1
+Lonapegsomatropin (PS),Outcome,Any serious outcome,63,7.8
+Daily somatropin (PS),Sex,Female,17673,34.3
+Daily somatropin (PS),Sex,Male,29302,56.8
+Daily somatropin (PS),Sex,Unknown/not reported,4602,8.9
+Daily somatropin (PS),Age (years),<6,3084,6.0
+Daily somatropin (PS),Age (years),6-11,12054,23.4
+Daily somatropin (PS),Age (years),12-17,16751,32.5
+Daily somatropin (PS),Age (years),18-64,3963,7.7
+Daily somatropin (PS),Age (years),>=65,1528,3.0
+Daily somatropin (PS),Age (years),Unknown,14197,27.5
+Daily somatropin (PS),Reporter,Physician,3524,6.8
+Daily somatropin (PS),Reporter,Other health professional,5896,11.4
+Daily somatropin (PS),Reporter,Pharmacist,1122,2.2
+Daily somatropin (PS),Reporter,Nurse,0,0.0
+Daily somatropin (PS),Reporter,Consumer,37198,72.1
+Daily somatropin (PS),Reporter,Lawyer,6,0.0
+Daily somatropin (PS),Reporter,Unknown/other,3831,7.4
+Daily somatropin (PS),Country,United States,31622,61.3
+Daily somatropin (PS),Country,Other,19955,38.7
+Daily somatropin (PS),Country,Unknown,0,0.0
+Daily somatropin (PS),Report type,Expedited (15-day),7802,15.1
+Daily somatropin (PS),Report type,Periodic,5183,10.0
+Daily somatropin (PS),Report type,Direct,535,1.0
+Daily somatropin (PS),Report type,Other/unknown,38057,73.8
+Daily somatropin (PS),Year of FDA receipt (retained version),2021,3039,5.9
+Daily somatropin (PS),Year of FDA receipt (retained version),2022,7312,14.2
+Daily somatropin (PS),Year of FDA receipt (retained version),2023,9073,17.6
+Daily somatropin (PS),Year of FDA receipt (retained version),2024,11303,21.9
+Daily somatropin (PS),Year of FDA receipt (retained version),2025,12582,24.4
+Daily somatropin (PS),Year of FDA receipt (retained version),2026,8268,16.0
+Daily somatropin (PS),Outcome,Death,453,0.9
+Daily somatropin (PS),Outcome,Life-threatening,163,0.3
+Daily somatropin (PS),Outcome,Hospitalization,1951,3.8
+Daily somatropin (PS),Outcome,Disability,75,0.1
+Daily somatropin (PS),Outcome,Congenital anomaly,3,0.0
+Daily somatropin (PS),Outcome,Required intervention,65,0.1
+Daily somatropin (PS),Outcome,Other serious,4960,9.6
+Daily somatropin (PS),Outcome,Any serious outcome,6715,13.0
+Somatrogon (PS),Sex,Female,347,27.3
+Somatrogon (PS),Sex,Male,595,46.7
+Somatrogon (PS),Sex,Unknown/not reported,331,26.0
+Somatrogon (PS),Age (years),<6,78,6.1
+Somatrogon (PS),Age (years),6-11,441,34.6
+Somatrogon (PS),Age (years),12-17,274,21.5
+Somatrogon (PS),Age (years),18-64,4,0.3
+Somatrogon (PS),Age (years),>=65,1,0.1
+Somatrogon (PS),Age (years),Unknown,475,37.3
+Somatrogon (PS),Reporter,Physician,530,41.6
+Somatrogon (PS),Reporter,Other health professional,207,16.3
+Somatrogon (PS),Reporter,Pharmacist,88,6.9
+Somatrogon (PS),Reporter,Nurse,0,0.0
+Somatrogon (PS),Reporter,Consumer,419,32.9
+Somatrogon (PS),Reporter,Lawyer,0,0.0
+Somatrogon (PS),Reporter,Unknown/other,29,2.3
+Somatrogon (PS),Country,United States,282,22.2
+Somatrogon (PS),Country,Other,991,77.8
+Somatrogon (PS),Country,Unknown,0,0.0
+Somatrogon (PS),Report type,Expedited (15-day),197,15.5
+Somatrogon (PS),Report type,Periodic,258,20.3
+Somatrogon (PS),Report type,Direct,6,0.5
+Somatrogon (PS),Report type,Other/unknown,812,63.8
+Somatrogon (PS),Year of FDA receipt (retained version),2021,0,0.0
+Somatrogon (PS),Year of FDA receipt (retained version),2022,0,0.0
+Somatrogon (PS),Year of FDA receipt (retained version),2023,164,12.9
+Somatrogon (PS),Year of FDA receipt (retained version),2024,522,41.0
+Somatrogon (PS),Year of FDA receipt (retained version),2025,451,35.4
+Somatrogon (PS),Year of FDA receipt (retained version),2026,136,10.7
+Somatrogon (PS),Outcome,Death,3,0.2
+Somatrogon (PS),Outcome,Life-threatening,8,0.6
+Somatrogon (PS),Outcome,Hospitalization,46,3.6
+Somatrogon (PS),Outcome,Disability,4,0.3
+Somatrogon (PS),Outcome,Congenital anomaly,0,0.0
+Somatrogon (PS),Outcome,Required intervention,5,0.4
+Somatrogon (PS),Outcome,Other serious,177,13.9
+Somatrogon (PS),Outcome,Any serious outcome,209,16.4
+Somapacitan (PS),Sex,Female,58,36.2
+Somapacitan (PS),Sex,Male,88,55.0
+Somapacitan (PS),Sex,Unknown/not reported,14,8.8
+Somapacitan (PS),Age (years),<6,7,4.4
+Somapacitan (PS),Age (years),6-11,21,13.1
+Somapacitan (PS),Age (years),12-17,22,13.8
+Somapacitan (PS),Age (years),18-64,48,30.0
+Somapacitan (PS),Age (years),>=65,18,11.2
+Somapacitan (PS),Age (years),Unknown,44,27.5
+Somapacitan (PS),Reporter,Physician,75,46.9
+Somapacitan (PS),Reporter,Other health professional,35,21.9
+Somapacitan (PS),Reporter,Pharmacist,19,11.9
+Somapacitan (PS),Reporter,Nurse,0,0.0
+Somapacitan (PS),Reporter,Consumer,21,13.1
+Somapacitan (PS),Reporter,Lawyer,0,0.0
+Somapacitan (PS),Reporter,Unknown/other,10,6.2
+Somapacitan (PS),Country,United States,80,50.0
+Somapacitan (PS),Country,Other,80,50.0
+Somapacitan (PS),Country,Unknown,0,0.0
+Somapacitan (PS),Report type,Expedited (15-day),93,58.1
+Somapacitan (PS),Report type,Periodic,46,28.8
+Somapacitan (PS),Report type,Direct,21,13.1
+Somapacitan (PS),Report type,Other/unknown,0,0.0
+Somapacitan (PS),Year of FDA receipt (retained version),2021,0,0.0
+Somapacitan (PS),Year of FDA receipt (retained version),2022,3,1.9
+Somapacitan (PS),Year of FDA receipt (retained version),2023,3,1.9
+Somapacitan (PS),Year of FDA receipt (retained version),2024,53,33.1
+Somapacitan (PS),Year of FDA receipt (retained version),2025,51,31.9
+Somapacitan (PS),Year of FDA receipt (retained version),2026,50,31.2
+Somapacitan (PS),Outcome,Death,10,6.2
+Somapacitan (PS),Outcome,Life-threatening,4,2.5
+Somapacitan (PS),Outcome,Hospitalization,50,31.2
+Somapacitan (PS),Outcome,Disability,4,2.5
+Somapacitan (PS),Outcome,Congenital anomaly,0,0.0
+Somapacitan (PS),Outcome,Required intervention,3,1.9
+Somapacitan (PS),Outcome,Other serious,70,43.8
+Somapacitan (PS),Outcome,Any serious outcome,110,68.8

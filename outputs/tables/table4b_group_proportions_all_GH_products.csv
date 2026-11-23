@@ -1,0 +1,93 @@
+group,product,k,n,pct,lo,hi
+Injection-site reactions,Lonapegsomatropin,97,806,12.0,10.0,14.5
+Injection-site reactions,Daily somatropin,3832,51577,7.4,7.2,7.7
+Injection-site reactions,Somatrogon,894,1273,70.2,67.7,72.7
+Injection-site reactions,Somapacitan,9,160,5.6,3.0,10.3
+Lipoatrophy/lipohypertrophy,Lonapegsomatropin,7,806,0.9,0.4,1.8
+Lipoatrophy/lipohypertrophy,Daily somatropin,26,51577,0.1,0.0,0.1
+Lipoatrophy/lipohypertrophy,Somatrogon,24,1273,1.9,1.3,2.8
+Lipoatrophy/lipohypertrophy,Somapacitan,10,160,6.2,3.4,11.1
+Hypersensitivity,Lonapegsomatropin,40,806,5.0,3.7,6.7
+Hypersensitivity,Daily somatropin,389,51577,0.8,0.7,0.8
+Hypersensitivity,Somatrogon,31,1273,2.4,1.7,3.4
+Hypersensitivity,Somapacitan,8,160,5.0,2.6,9.6
+Neoplasm (any),Lonapegsomatropin,4,806,0.5,0.2,1.3
+Neoplasm (any),Daily somatropin,619,51577,1.2,1.1,1.3
+Neoplasm (any),Somatrogon,6,1273,0.5,0.2,1.0
+Neoplasm (any),Somapacitan,11,160,6.9,3.9,11.9
+Malignancy,Lonapegsomatropin,3,806,0.4,0.1,1.1
+Malignancy,Daily somatropin,474,51577,0.9,0.8,1.0
+Malignancy,Somatrogon,6,1273,0.5,0.2,1.0
+Malignancy,Somapacitan,8,160,5.0,2.6,9.6
+CNS/pituitary tumour,Lonapegsomatropin,2,806,0.2,0.1,0.9
+CNS/pituitary tumour,Daily somatropin,322,51577,0.6,0.6,0.7
+CNS/pituitary tumour,Somatrogon,0,1273,0.0,-0.0,0.3
+CNS/pituitary tumour,Somapacitan,3,160,1.9,0.6,5.4
+Hyperglycaemia/type 2 diabetes,Lonapegsomatropin,6,806,0.7,0.3,1.6
+Hyperglycaemia/type 2 diabetes,Daily somatropin,291,51577,0.6,0.5,0.6
+Hyperglycaemia/type 2 diabetes,Somatrogon,2,1273,0.2,0.0,0.6
+Hyperglycaemia/type 2 diabetes,Somapacitan,4,160,2.5,1.0,6.3
+IGF-1 increased,Lonapegsomatropin,6,806,0.7,0.3,1.6
+IGF-1 increased,Daily somatropin,167,51577,0.3,0.3,0.4
+IGF-1 increased,Somatrogon,5,1273,0.4,0.2,0.9
+IGF-1 increased,Somapacitan,3,160,1.9,0.6,5.4
+SCFE/osteonecrosis,Lonapegsomatropin,1,806,0.1,0.0,0.7
+SCFE/osteonecrosis,Daily somatropin,53,51577,0.1,0.1,0.1
+SCFE/osteonecrosis,Somatrogon,5,1273,0.4,0.2,0.9
+SCFE/osteonecrosis,Somapacitan,2,160,1.2,0.3,4.4
+Scoliosis,Lonapegsomatropin,3,806,0.4,0.1,1.1
+Scoliosis,Daily somatropin,84,51577,0.2,0.1,0.2
+Scoliosis,Somatrogon,0,1273,0.0,-0.0,0.3
+Scoliosis,Somapacitan,0,160,0.0,-0.0,2.3
+Intracranial hypertension,Lonapegsomatropin,3,806,0.4,0.1,1.1
+Intracranial hypertension,Daily somatropin,99,51577,0.2,0.2,0.2
+Intracranial hypertension,Somatrogon,9,1273,0.7,0.4,1.3
+Intracranial hypertension,Somapacitan,4,160,2.5,1.0,6.3
+Fluid retention/musculoskeletal,Lonapegsomatropin,57,806,7.1,5.5,9.1
+Fluid retention/musculoskeletal,Daily somatropin,702,51577,1.4,1.3,1.5
+Fluid retention/musculoskeletal,Somatrogon,22,1273,1.7,1.1,2.6
+Fluid retention/musculoskeletal,Somapacitan,14,160,8.8,5.3,14.2
+Hypothyroidism,Lonapegsomatropin,0,806,0.0,-0.0,0.5
+Hypothyroidism,Daily somatropin,74,51577,0.1,0.1,0.2
+Hypothyroidism,Somatrogon,2,1273,0.2,0.0,0.6
+Hypothyroidism,Somapacitan,1,160,0.6,0.1,3.5
+Adrenal insufficiency,Lonapegsomatropin,0,806,0.0,-0.0,0.5
+Adrenal insufficiency,Daily somatropin,61,51577,0.1,0.1,0.2
+Adrenal insufficiency,Somatrogon,3,1273,0.2,0.1,0.7
+Adrenal insufficiency,Somapacitan,3,160,1.9,0.6,5.4
+Pancreatitis,Lonapegsomatropin,0,806,0.0,-0.0,0.5
+Pancreatitis,Daily somatropin,12,51577,0.0,0.0,0.0
+Pancreatitis,Somatrogon,1,1273,0.1,0.0,0.4
+Pancreatitis,Somapacitan,1,160,0.6,0.1,3.5
+Headache,Lonapegsomatropin,73,806,9.1,7.3,11.2
+Headache,Daily somatropin,742,51577,1.4,1.3,1.5
+Headache,Somatrogon,35,1273,2.7,2.0,3.8
+Headache,Somapacitan,16,160,10.0,6.2,15.6
+Pregnancy exposure,Lonapegsomatropin,0,806,0.0,-0.0,0.5
+Pregnancy exposure,Daily somatropin,24,51577,0.0,0.0,0.1
+Pregnancy exposure,Somatrogon,1,1273,0.1,0.0,0.4
+Pregnancy exposure,Somapacitan,2,160,1.2,0.3,4.4
+NC: any non-clinical,Lonapegsomatropin,410,806,50.9,47.4,54.3
+NC: any non-clinical,Daily somatropin,45054,51577,87.4,87.1,87.6
+NC: any non-clinical,Somatrogon,404,1273,31.7,29.2,34.3
+NC: any non-clinical,Somapacitan,18,160,11.2,7.2,17.1
+NC: Dose omission/missed or delayed dose,Lonapegsomatropin,248,806,30.8,27.7,34.0
+NC: Dose omission/missed or delayed dose,Daily somatropin,20880,51577,40.5,40.1,40.9
+NC: Dose omission/missed or delayed dose,Somatrogon,74,1273,5.8,4.7,7.2
+NC: Dose omission/missed or delayed dose,Somapacitan,4,160,2.5,1.0,6.3
+NC: Device issues,Lonapegsomatropin,179,806,22.2,19.5,25.2
+NC: Device issues,Daily somatropin,40550,51577,78.6,78.3,79.0
+NC: Device issues,Somatrogon,276,1273,21.7,19.5,24.0
+NC: Device issues,Somapacitan,0,160,0.0,-0.0,2.3
+NC: Storage/temperature/expiry/preparation,Lonapegsomatropin,41,806,5.1,3.8,6.8
+NC: Storage/temperature/expiry/preparation,Daily somatropin,3962,51577,7.7,7.5,7.9
+NC: Storage/temperature/expiry/preparation,Somatrogon,13,1273,1.0,0.6,1.7
+NC: Storage/temperature/expiry/preparation,Somapacitan,0,160,0.0,-0.0,2.3
+NC: Incorrect dose/technique/schedule/product,Lonapegsomatropin,77,806,9.6,7.7,11.8
+NC: Incorrect dose/technique/schedule/product,Daily somatropin,11126,51577,21.6,21.2,21.9
+NC: Incorrect dose/technique/schedule/product,Somatrogon,150,1273,11.8,10.1,13.7
+NC: Incorrect dose/technique/schedule/product,Somapacitan,6,160,3.8,1.7,7.9
+NC: Product quality/supply/access,Lonapegsomatropin,31,806,3.8,2.7,5.4
+NC: Product quality/supply/access,Daily somatropin,3968,51577,7.7,7.5,7.9
+NC: Product quality/supply/access,Somatrogon,17,1273,1.3,0.8,2.1
+NC: Product quality/supply/access,Somapacitan,0,160,0.0,-0.0,2.3

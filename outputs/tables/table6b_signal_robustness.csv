@@ -1,0 +1,20 @@
+pt_display,a,ROR,labeled,S1,S2,S3,S4,S5,S6
+Growing pains,6,624.9510989010989,False,True,True,True,False,True,True
+Insulin-like growth factor increased,6,120.73821656050956,True,True,True,True,True,True,True
+Injection site atrophy,5,116.86666358410011,True,True,True,True,True,True,True
+Scoliosis,3,14.076473289775668,True,True,True,True,False,False,True
+Injection site reaction,28,13.57042916120932,True,True,True,True,True,True,True
+Affective disorder,3,9.996045538725017,False,True,True,True,False,True,True
+Aggression,8,6.644825317254442,False,True,True,True,True,False,True
+Mood swings,5,6.495615885363076,False,True,True,True,False,False,True
+Crying,5,5.8971659895073785,False,True,True,True,True,False,True
+Abnormal behaviour,4,5.380119401055953,False,True,True,True,True,False,True
+Laboratory test abnormal,5,4.624312179722519,False,True,True,True,False,True,False
+Injection site rash,5,3.9415081648356565,True,True,True,False,False,False,True
+Injection site pain,48,3.84181019363048,True,True,True,True,True,True,True
+Headache,73,3.6358894915270525,True,True,True,True,True,True,True
+Lethargy,6,3.572459240840992,False,True,True,True,False,True,False
+Myalgia,12,2.218930469299111,True,True,True,True,True,True,True
+Weight increased,18,2.1651429049588327,False,True,True,True,False,True,True
+Abdominal pain upper,15,2.0343528198393486,True,True,True,True,False,False,True
+Pain in extremity,18,1.9302929388026202,False,True,True,True,False,False,True

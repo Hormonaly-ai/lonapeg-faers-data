@@ -1,0 +1,38 @@
+{
+ "upload_type": "dataset",
+ "title": "Post-marketing safety of lonapegsomatropin (Skytrofa): FAERS disproportionality analysis with active comparators and systematic review \u2013 aggregate outputs and analysis code",
+ "creators": [
+  {
+   "name": "Hannah-Shmouni, Fady",
+   "affiliation": "Division of Endocrinology, Department of Medicine, University of British Columbia; Hormonaly Inc.",
+   "orcid": "0000-0001-6829-6205"
+  },
+  {
+   "name": "Stratakis, Constantine A.",
+   "affiliation": "Hospital for Endocrine Surgery Research Center, HCA Florida Healthcare, HCA Healthcare Research Institute, Tampa, FL, USA",
+   "orcid": "0000-0002-4058-5520"
+  }
+ ],
+ "description": "<p>Aggregate outputs and analysis code supporting the manuscript \"Post-marketing safety of lonapegsomatropin: a disproportionality analysis of US Food and Drug Administration adverse event reports with active comparators and a systematic review\" (under review). Prospectively registered protocol: OSF doi:10.17605/OSF.IO/UB6W2.</p><p>Contents: aggregate disproportionality tables (ROR, PRR, BCPNN IC, MGPS EBGM) for lonapegsomatropin vs all drugs and vs daily somatropin and somatrogon; prespecified event groups; paediatric/adult strata; sensitivity analyses; quarterly report counts; whole-database background PT counts; figures; systematic-review search results and extraction tables (published literature); Python 3.12 code to reproduce everything from the public FDA FAERS quarterly ASCII files (2010Q4-2026Q3 downloaded for deduplication; analysis window 2021Q3-2026Q3). No case-level FAERS rows, report identifiers or individual-level data are included.</p>",
+ "access_right": "open",
+ "license": "cc-by-4.0",
+ "keywords": [
+  "lonapegsomatropin",
+  "Skytrofa",
+  "long-acting growth hormone",
+  "FAERS",
+  "pharmacovigilance",
+  "disproportionality analysis",
+  "systematic review"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "10.17605/OSF.IO/UB6W2",
+   "relation": "isDocumentedBy",
+   "scheme": "doi"
+  }
+ ],
+ "version": "1.0",
+ "language": "eng",
+ "notes": "Data files (outputs/, review_extraction/) are licensed CC-BY-4.0; code (code/) under the MIT licence."
+}

@@ -1,0 +1,117 @@
+analysis,item,a_L,n_L,c_comp,n_comp,comparator,ROR,ROR_lo,ROR_hi,haldane,higher,lower
+S8: L_PS vs DS_PS excluding multi-GH reports,Injection-site reactions,92,780,3831,51562,Daily somatropin,1.6660490005038455,1.336964260317417,2.07613573112333,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Lipoatrophy/lipohypertrophy,7,780,26,51562,Daily somatropin,17.94964673101801,7.767558507897157,41.478904528466714,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Hypersensitivity,38,780,389,51562,Daily somatropin,6.737068577249011,4.790861889114742,9.473888846113832,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Neoplasm (any),4,780,618,51562,Daily somatropin,0.4249157575150969,0.1585661492229739,1.138662960974959,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Malignancy,3,780,473,51562,Daily somatropin,0.4170292309827194,0.13372135750277966,1.3005654649476857,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,CNS/pituitary tumour,2,780,322,51562,Daily somatropin,0.40907566782161614,0.1016841763032058,1.6457123230728816,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Hyperglycaemia/type 2 diabetes,6,780,291,51562,Daily somatropin,1.3658062281893497,0.6066889250830404,3.0747662860426996,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,IGF-1 increased,6,780,167,51562,Daily somatropin,2.385693728821427,1.0533638305468422,5.403199163182951,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,SCFE/osteonecrosis,1,780,53,51562,Daily somatropin,1.2475839852738149,0.17231000750936262,9.032939077709242,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Scoliosis,3,780,84,51562,Daily somatropin,2.366151866151866,0.7463590591339312,7.5013153323155395,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Intracranial hypertension,3,780,99,51562,Daily somatropin,2.007059007059007,0.6349961928768811,6.343795290435272,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Fluid retention/musculoskeletal,57,780,702,51562,Daily somatropin,5.7118369566502345,4.318010291162259,7.555582136089323,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Hypothyroidism,0,780,74,51562,Daily somatropin,0.44274234809040836,0.02741102420868839,7.1511660892436195,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Adrenal insufficiency,0,780,61,51562,Daily somatropin,0.5364655760587074,0.03314863002780243,8.681967069366697,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Pancreatitis,0,780,12,51562,Daily somatropin,2.641921844971172,0.15627637180711187,44.66286844405897,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Headache,73,780,741,51562,Daily somatropin,7.081551937727029,5.506129306792935,9.107737042218961,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,Pregnancy exposure,0,780,24,51562,Daily somatropin,1.3476055380512229,0.08187490461913166,22.180675441812646,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: any non-clinical,400,780,45045,51562,Daily somatropin,0.1522921522921523,0.13202791372216233,0.17566663742474123,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: Dose omission/missed or delayed dose,240,780,20877,51562,Daily somatropin,0.6532441336292464,0.5605298440642583,0.7612938055660515,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: Device issues,177,780,40545,51562,Daily somatropin,0.07975942215178884,0.06736607239658524,0.0944327789296757,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: Storage/temperature/expiry/preparation,40,780,3962,51562,Daily somatropin,0.6494126635469392,0.4716576035842609,0.8941588227778616,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: Incorrect dose/technique/schedule/product,77,780,11125,51562,Daily somatropin,0.39812028705228,0.3143612599738597,0.5041962326266589,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,NC: Product quality/supply/access,31,780,3968,51562,Daily somatropin,0.4964327436582109,0.34610896866397,0.7120458910017086,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site pain,48,780,2340,51562,Daily somatropin,1.3793470645929664,1.0270089309514554,1.8525625895371738,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site erythema,5,780,111,51562,Daily somatropin,2.990467887242081,1.2172127158507786,7.347029872568674,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site swelling,3,780,83,51562,Daily somatropin,2.394706238079732,0.7551856882453666,7.593652867047916,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site bruising,5,780,569,51562,Daily somatropin,0.578184704348319,0.2390466122970998,1.3984617858832917,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site haemorrhage,4,780,752,51562,Daily somatropin,0.3482808729984646,0.13004130085023308,0.9327772461786722,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site pruritus,3,780,41,51562,Daily somatropin,4.851775120067803,1.4991976479207139,15.701546656211038,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site reaction,25,780,66,51562,Daily somatropin,25.83584186233193,16.214321211407878,41.166738714032505,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Injection site atrophy,5,780,10,51562,Daily somatropin,33.259354838709676,11.34139184227423,97.53517907422757,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Lipoatrophy,2,780,0,51562,Daily somatropin,331.16570327552984,15.884998804831069,6904.04351762509,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Headache,73,780,741,51562,Daily somatropin,7.081551937727029,5.506129306792935,9.107737042218961,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Insulin-like growth factor increased,6,780,154,51562,Daily somatropin,2.587737843551797,1.141217875862768,5.867755218860021,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Insulin-like growth factor decreased,0,780,53,51562,Daily somatropin,0.6167805205146473,0.038047493067208414,9.998509226727114,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Hyperglycaemia,1,780,18,51562,Daily somatropin,3.6759378120096984,0.49010144463973443,27.570860983067465,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Blood glucose increased,1,780,110,51562,Daily somatropin,0.6004434589800443,0.08372257478279671,4.306274005156399,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Scoliosis,3,780,79,51562,Daily somatropin,2.516152680709643,0.792679696437875,7.986863219901465,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Epiphysiolysis,1,780,27,51562,Daily somatropin,2.4501973089906333,0.3325212932425345,18.054383207893192,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Arthralgia,22,780,259,51562,Daily somatropin,5.7490551237253085,3.698428147931538,8.936670794623218,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Pain in extremity,18,780,251,51562,Daily somatropin,4.828967594190169,2.9774248180619134,7.8319116184830175,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Oedema peripheral,1,780,16,51562,Daily somatropin,4.1355905006418485,0.5477533638350466,31.22410544273648,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Hypothyroidism,0,780,39,51562,Daily somatropin,0.8356133280354203,0.05131194932219202,13.607934276791221,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Pyrexia,13,780,283,51562,Daily somatropin,3.0711505060789364,1.7533834543968718,5.379294191089144,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Vomiting,24,780,242,51562,Daily somatropin,6.732257641348549,4.398902876580042,10.30331749100422,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Urticaria,7,780,67,51562,Daily somatropin,6.9599930489853445,3.184825197600341,15.210097960297277,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Rash,17,780,102,51562,Daily somatropin,11.240716470074268,6.693472355392966,18.877153747978813,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Hypersensitivity,9,780,73,51562,Daily somatropin,8.233409732956666,4.10465205153881,16.515172292212164,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Fatigue,27,780,462,51562,Daily somatropin,3.965954364360739,2.6726352177752086,5.885125630158076,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Growth retardation,0,780,134,51562,Daily somatropin,0.24495069169748684,0.015228238045051162,3.9401039821922272,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Dose omission issue,0,780,0,51562,Daily somatropin,66.06342088404868,1.3099355652852336,3331.7482894302784,True,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Device issue,18,780,5128,51562,Daily somatropin,0.21389745353593673,0.133915186880331,0.3416499778329334,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Product dose omission issue,166,780,1834,51562,Daily somatropin,7.330631325061542,6.137270074237802,8.756035659820196,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Device malfunction,46,780,2272,51562,Daily somatropin,1.3596034654795255,1.0063550654190878,1.8368482922815461,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Product storage error,6,780,924,51562,Daily somatropin,0.42482969227155276,0.18976670228785733,0.9510639393510222,False,False,True
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Incorrect dose administered,33,780,1391,51562,Daily somatropin,1.5933785465369747,1.1198138918515914,2.2672117313764812,False,True,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Underdose,1,780,163,51562,Daily somatropin,0.4047898438299849,0.056604708644633774,2.8947206264515826,False,False,False
+S8: L_PS vs DS_PS excluding multi-GH reports,PT: Drug ineffective,16,780,522,51562,Daily somatropin,2.0477021524141943,1.2388231701655708,3.3847317405609325,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Injection-site reactions,92,780,886,1260,Somatrogon,0.05644653262638458,0.04400928925511985,0.07239860264661807,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,Lipoatrophy/lipohypertrophy,7,780,24,1260,Somatrogon,0.4663648124191462,0.1999850158685443,1.0875621721864983,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Hypersensitivity,38,780,31,1260,Somatrogon,2.0303451873750107,1.2525396946592062,3.2911544420302556,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Neoplasm (any),4,780,5,1260,Somatrogon,1.2938144329896908,0.34636701429737915,4.832896083964948,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Malignancy,3,780,5,1260,Somatrogon,0.9691119691119692,0.2309508583010516,4.066570765681375,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,CNS/pituitary tumour,2,780,0,1260,Somatrogon,8.095696852922286,0.3881356381909089,168.8592880568701,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Hyperglycaemia/type 2 diabetes,6,780,2,1260,Somatrogon,4.875968992248062,0.9816530982755431,24.219425024104684,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,IGF-1 increased,6,780,5,1260,Somatrogon,1.945736434108527,0.5918073283411615,6.3971669320642475,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,SCFE/osteonecrosis,1,780,5,1260,Somatrogon,0.32220795892169446,0.037572195696506536,2.763159481843574,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Scoliosis,3,780,0,1260,Somatrogon,11.348553054662379,0.5853771917481156,220.0114016227408,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Intracranial hypertension,3,780,8,1260,Somatrogon,0.6042471042471043,0.1598188810125266,2.284552117233215,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Fluid retention/musculoskeletal,57,780,20,1260,Somatrogon,4.8879668049792535,2.913040783011672,8.201814278026662,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Hypothyroidism,0,780,2,1260,Somatrogon,0.32248558616271616,0.015461091465399304,6.726365568397777,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Adrenal insufficiency,0,780,1,1260,Somatrogon,0.5379030535981209,0.021884237180726858,13.221374484325194,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Pancreatitis,0,780,1,1260,Somatrogon,0.5379030535981209,0.021884237180726858,13.221374484325194,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Headache,73,780,35,1260,Somatrogon,3.613861386138614,2.3900412129426014,5.464338458893908,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,Pregnancy exposure,0,780,1,1260,Somatrogon,0.5379030535981209,0.021884237180726858,13.221374484325194,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: any non-clinical,400,780,400,1260,Somatrogon,2.263157894736842,1.883168381373846,2.719822458347074,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: Dose omission/missed or delayed dose,240,780,73,1260,Somatrogon,7.226788432267884,5.456228184107435,9.57190008967787,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: Device issues,177,780,274,1260,Somatrogon,1.0562879035479535,0.8524035971427423,1.3089387925176599,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: Storage/temperature/expiry/preparation,40,780,13,1260,Somatrogon,5.185031185031185,2.7551251447680043,9.758013511945103,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: Incorrect dose/technique/schedule/product,77,780,148,1260,Somatrogon,0.8229595171273691,0.6150843509272854,1.1010885999773676,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,NC: Product quality/supply/access,31,780,17,1260,Somatrogon,3.0262310531689307,1.6634401654919129,5.5055027389312245,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site pain,48,780,820,1260,Somatrogon,0.03518592562974811,0.02569984716084491,0.04817341343213896,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site erythema,5,780,50,1260,Somatrogon,0.15612903225806452,0.061988518774538426,0.393238541519276,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site swelling,3,780,41,1260,Somatrogon,0.11479423674545626,0.0354249888731968,0.3719892993372925,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site bruising,5,780,17,1260,Somatrogon,0.4717267552182163,0.1733354292968488,1.2837890816170978,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site haemorrhage,4,780,23,1260,Somatrogon,0.27722994173016585,0.09551250814867578,0.8046740901419486,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site pruritus,3,780,21,1260,Somatrogon,0.22779922779922782,0.06772165359909868,0.7662613865443936,False,False,True
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site reaction,25,780,8,1260,Somatrogon,5.182119205298014,2.3255398757678623,11.547580730711651,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Injection site atrophy,5,780,5,1260,Somatrogon,1.6193548387096774,0.4672854983732135,5.611794294455182,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Lipoatrophy,2,780,1,1260,Somatrogon,3.236503856041131,0.2929744924387271,35.75381980518271,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Headache,73,780,35,1260,Somatrogon,3.613861386138614,2.3900412129426014,5.464338458893908,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Insulin-like growth factor increased,6,780,3,1260,Somatrogon,3.248062015503876,0.809967676703368,13.02509613654961,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Insulin-like growth factor decreased,0,780,4,1260,Somatrogon,0.17887394120577976,0.009616887414841423,3.3270522428192892,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Hyperglycaemia,1,780,0,1260,Somatrogon,4.851186658114176,0.19736726564305487,119.23969213023908,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Blood glucose increased,1,780,1,1260,Somatrogon,1.6161745827984595,0.1009392744844936,25.877145396810207,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Scoliosis,3,780,0,1260,Somatrogon,11.348553054662379,0.5853771917481156,220.0114016227408,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Epiphysiolysis,1,780,5,1260,Somatrogon,0.32220795892169446,0.037572195696506536,2.763159481843574,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Arthralgia,22,780,5,1260,Somatrogon,7.284960422163588,2.7472082577704655,19.31802883977937,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Pain in extremity,18,780,9,1260,Somatrogon,3.283464566929134,1.4676747042555958,7.345728267318822,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Oedema peripheral,1,780,3,1260,Somatrogon,0.5378690629011552,0.05584824616248253,5.180164977508524,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Hypothyroidism,0,780,1,1260,Somatrogon,0.5379030535981209,0.021884237180726858,13.221374484325194,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Pyrexia,13,780,13,1260,Somatrogon,1.6258148631029987,0.7497545657042244,3.5255190031472043,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Vomiting,24,780,15,1260,Somatrogon,2.6349206349206344,1.373605286659222,5.0544409079964465,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Urticaria,7,780,6,1260,Somatrogon,1.892626131953428,0.6337154511606994,5.652432284540672,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Rash,17,780,9,1260,Somatrogon,3.0969855832241153,1.3736278727054279,6.982473123384891,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Hypersensitivity,9,780,3,1260,Somatrogon,4.891050583657587,1.3200478730493936,18.12235472690474,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Fatigue,27,780,6,1260,Somatrogon,7.494023904382471,3.079863406439326,18.234702929369103,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Growth retardation,0,780,3,1260,Somatrogon,0.2301638144046856,0.011872254815883146,4.462116277224954,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Dose omission issue,0,780,0,1260,Somatrogon,1.614990390775144,0.03201062503731848,81.4790076499718,True,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Device issue,18,780,22,1260,Somatrogon,1.3292770221904078,0.7083641107465097,2.4944479469199368,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Product dose omission issue,166,780,18,1260,Somatrogon,18.65472312703583,11.361177405235086,30.63051324117271,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Device malfunction,46,780,4,1260,Somatrogon,19.678474114441414,7.055127815779164,54.88806915824442,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Product storage error,6,780,1,1260,Somatrogon,9.75968992248062,1.172720932814435,81.22268880659766,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Incorrect dose administered,33,780,29,1260,Somatrogon,1.875225038083368,1.129341245506014,3.113734628437462,False,True,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Underdose,1,780,5,1260,Somatrogon,0.32220795892169446,0.037572195696506536,2.763159481843574,False,False,False
+S8: L_PS vs SG_PS excluding multi-GH reports,PT: Drug ineffective,16,780,17,1260,Somatrogon,1.5312596242685557,0.76910502851936,3.048681194334508,False,False,False

@@ -1,0 +1,13 @@
+{
+ "N_reports_with_pt": 7583637,
+ "N_us": 5260753,
+ "N_hcp": 3538979,
+ "N_ped": 292357,
+ "N_adult": 4120577,
+ "N_ps_reports": 7581845,
+ "n_pairs": 1787003,
+ "n_drugs": 5205,
+ "n_pts": 21344,
+ "n_quarters": 21,
+ "quarters": "2021Q3-2026Q3"
+}

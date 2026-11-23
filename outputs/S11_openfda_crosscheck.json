@@ -1,0 +1,3 @@
+{"query_date":"2026-11-23","api":"https://api.fda.gov/drug/event.json","openfda_last_updated":"2026-10-28",
+ "generic_name_LONAPEGSOMATROPIN-TCGD":830,"brand_name_SKYTROFA":830,"medicinalproduct_SKYTROFA":833,
+ "note":"openFDA counts are all years, any drug role, not deduplicated by CASEID; compare with 852 deduplicated any-role reports with >=1 PT in the 2021Q3-2026Q3 extract (this study)."}

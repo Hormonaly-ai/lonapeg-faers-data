@@ -1,0 +1,24 @@
+group,n_all,n_us,n_hcp,n_ped,n_adult
+Adrenal insufficiency,8096,2239,6521,466,5518
+CNS/pituitary tumour,28792,19722,8474,578,11367
+Fluid retention/musculoskeletal,462167,292370,200669,8550,291624
+Headache,202237,137781,72176,5706,120248
+Hyperglycaemia/type 2 diabetes,111270,70864,39658,1834,68085
+Hypersensitivity,545030,376738,289958,28925,326743
+Hypothyroidism,14087,3910,9743,368,9741
+IGF-1 increased,609,264,370,124,366
+Injection-site reactions,254342,226950,85641,13988,152074
+Intracranial hypertension,3754,1449,2714,669,2052
+Lipoatrophy/lipohypertrophy,3717,2238,1441,186,2015
+Malignancy,566881,392387,278325,3971,369223
+NC: Device issues,381993,322723,135787,34336,198180
+NC: Dose omission/missed or delayed dose,468691,412668,147918,29396,261203
+NC: Incorrect dose/technique/schedule/product,753619,578589,265213,37951,397486
+NC: Product quality/supply/access,98291,75488,29406,6065,45403
+NC: Storage/temperature/expiry/preparation,138894,124958,58206,6169,52951
+NC: any non-clinical,2791147,2129630,1188318,147511,1420537
+Neoplasm (any),591319,409047,285707,4548,378658
+Pancreatitis,22206,9980,13808,901,14241
+Pregnancy exposure,71477,33091,45613,1466,35378
+SCFE/osteonecrosis,11344,8938,2452,316,7497
+Scoliosis,2871,1438,1174,400,1324
